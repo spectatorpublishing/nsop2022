@@ -79,7 +79,7 @@ const Section = ( { id, articles, header, color } ) => {
                 </ArticlesWrap>
             </Wrapper2>
             <NavWrap>
-                <VerticalNav color="#251282" />
+                <VerticalNav color="#251282" current={id} />
             </NavWrap>
         </SectionWrap1>
     );

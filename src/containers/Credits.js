@@ -93,7 +93,7 @@ const CreditsSec = () => {
                 </a>
             </Credits>
             <NavWrap>
-                <VerticalNav color="white" />
+                <VerticalNav color="white" current="credits" />
             </NavWrap>
         </SectionWrap5>
     );
