@@ -36,15 +36,19 @@ const Illustration = styled.img`
 const NavText = styled.text`
     font-weight: 500;
     fill: white;
+
+    :hover {
+        font-weight: bold;
+    }
 `;
 
 const WelcomeGraphic = () => {
     return (
         <ImgWrapper>
             <div>
-                <Swirly width="443" height="200" viewBox="0 0 443 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <Swirly width="500" height="210" viewBox="-52 -50 500 210" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <a href="#home">
-                        <NavText x="0" y="50">HOME</NavText>
+                        <NavText x="-20" y="40">HOME</NavText>
                     </a>
                     <a href="#student_life">
                         <NavText x="110" y="145">STUDENT LIFE</NavText>
@@ -52,11 +56,11 @@ const WelcomeGraphic = () => {
                     <a href="#on_campus">
                         <NavText x="210" y="-10" fill="white">ON CAMPUS</NavText>
                     </a>
-                    <circle r="5.5" transform="matrix(-1 0 0 1 6.17 61)" y="500" fill="white"/>
-                    <path d="M1 58.6785C1 58.6785 25.6615 121.784 64 137.46C137.229 167.401 123.172 -2.51782 203.5 1.05562C254.955 3.34461 263.608 61.3013 315 64.5308C369.794 67.9741 442 22 442 22" stroke="white"/>
+                    <path d="M6 58.6785C6 58.6785 30.6615 121.784 69 137.46C142.229 167.401 128.172 -2.51782 208.5 1.05562C259.955 3.34461 268.608 61.3013 320 64.5308C374.794 67.9741 447 22 447 22" stroke="white"/>
+                    <circle r="5.5" transform="matrix(-1 0 0 1 5.5 57.5)" fill="white"/>
                 </Swirly>
                 <Illustration src="https://backtocampus.s3.amazonaws.com/low_steps.jpg" alt="Illustration of Low Library at Sunset" />
-                <Swirly width="397" height="200" viewBox="0 0 397 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <Swirly width="433" height="300" viewBox="0 -30 433 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <a href="#beyond_campus">
                         <NavText x="20" y="-10" fill="white">BEYOND CAMPUS</NavText> 
                     </a>
@@ -64,10 +68,10 @@ const WelcomeGraphic = () => {
                         <NavText x="120" y="145" fill="white">SECTION 4</NavText>  
                     </a>
                     <a href="#credits">
-                        <NavText x="325" y="120" fill="white">CREDITS</NavText> 
+                        <NavText x="360" y="125" fill="white">CREDITS</NavText> 
                     </a>
-                    <circle r="5.5" transform="matrix(-1 0 0 1 391.5 100)" y="500" fill="white"/>
                     <path d="M396.5 99.5C396.5 99.5 391 64 353.392 68.9364C315.784 73.8728 288.448 154.082 239.409 146.523C190.369 138.963 181.092 37.9019 141.772 8.45882C102.452 -20.9842 1 50 1 50" stroke="white"/>
+                    <ellipse rx="5.5" ry="5.3597" transform="matrix(-1 0 0 1 397.5 101.36)" fill="white"/>
                 </Swirly>
             </div>
         </ImgWrapper>

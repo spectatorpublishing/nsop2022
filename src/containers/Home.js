@@ -3,35 +3,22 @@ import styled from 'styled-components';
 
 import { device } from '../device';
 
-
 import Section from './Section';
 import CreditsSec from './Credits';
 import NavBar from '../components/NavBar';
 import WelcomeGraphic from '../components/WelcomeGraphic';
-import MobileNavBar from '../components/MobileNav';
-
+import VerticalNav from '../components/VerticalNav';
 
 import { student_life_articles } from '../data/student_life_articles';
 
 const Wrapper1 = styled.div`
-    background-image: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg);
+    background: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg) rgba(37, 18, 130, .45);
+    background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-
-    @media ${device.tablet} {
-        background-image: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-    }
+    height: 140vh;
 
     @media ${device.laptopS} {
-        background: #251282;
-        height: fit-content;
-    }
-
-    @media ${device.laptop} {
         background: #251282;
         height: fit-content;
     }
@@ -39,23 +26,14 @@ const Wrapper1 = styled.div`
 
 const TextWrapper = styled.div`
     margin: auto;
-    background: #251282;
     padding: 1rem;
     width: fit-content;
-
-    @media ${device.tablet} {
-
-    }
 
     @media ${device.laptopS} {
         margin-left: 0;
         background: none;
         padding: 0;
         width: inherit;
-    }
-
-    @media ${device.laptop} {
-
     }
 `;
 
@@ -108,6 +86,8 @@ const Back = styled.h1`
 
 const MobileNavWrap = styled.div`
         display: inherit;
+        margin-top: -10rem;
+        float: right;
 
         @media ${device.laptopS} {
             display: none;
@@ -122,7 +102,7 @@ const Home = () => (
                 <Welcome>WELCOME</Welcome>
                 <Back>BACK</Back>
                 <MobileNavWrap>
-                    <MobileNavBar color="white" />
+                    <VerticalNav color="white" />
                 </MobileNavWrap>
             </TextWrapper>
             <WelcomeGraphic />

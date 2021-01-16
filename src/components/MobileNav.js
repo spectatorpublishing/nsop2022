@@ -5,7 +5,7 @@ const NavWrap = styled.div`
     width: fit-content;
     text-align: center;
     margin: auto;
-    padding-top: 1rem;
+    padding-top: 0rem;
 `;
 
 const Swirly = styled.svg`
@@ -16,14 +16,18 @@ const NavText = styled.text`
     font-weight: 500;
     font-size: .7rem;
     fill: ${props => props.color };
+
+    :hover {
+        font-weight: bold;
+    }
 `;
 
 const MobileNavBar = ({color}) => {
     return (
         <NavWrap>
-            <Swirly width="336" height="75" viewBox="0 0 336 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <Swirly width="360" height="100" viewBox="0 -30 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <a href="#home">
-                        <NavText x="10" y="15" color={color}>HOME</NavText>
+                        <NavText x="0" y="5" color={color}>HOME</NavText>
                 </a>
                 <a href="#student_life">
                         <NavText x="50" y="30" color={color}>
@@ -31,23 +35,23 @@ const MobileNavBar = ({color}) => {
                             <tspan x="50" dy="1.2em">LIFE</tspan></NavText>
                 </a>
                 <a href="#on_campus">
-                        <NavText x="125" y="25" color={color}>
-                            <tspan x="125" dy="1.2em">ON</tspan> 
-                            <tspan x="125" dy="1.2em">CAMPUS</tspan></NavText>
+                        <NavText x="105" y="5" color={color}>
+                            ON CAMPUS
+                        </NavText>
                 </a>
                 <a href="#beyond_campus">
-                        <NavText x="185" y="10" color={color}>
-                            <tspan x="185" dy="1.2em">BEYOND</tspan> 
-                            <tspan x="185" dy="1.2em">CAMPUS</tspan>
+                        <NavText x="170" y="15" color={color}>
+                            <tspan x="170" dy="1.2em">BEYOND</tspan> 
+                            <tspan x="170" dy="1.2em">CAMPUS</tspan>
                             </NavText>
                 </a>
                 <a href="#name_tbd">
-                        <NavText x="270" y="0" color={color}>
-                            <tspan x="270" dy="1.2em">NAME</tspan> 
-                            <tspan x="270" dy="1.2em">TBD</tspan></NavText>
+                        <NavText x="260" y="10" color={color}>
+                            <tspan x="260" dy="1.2em">NAME</tspan> 
+                            <tspan x="260" dy="1.2em">TBD</tspan></NavText>
                 </a>
                 <a href="#credits">
-                        <NavText x="285" y="50" color={color}>
+                        <NavText x="310" y="50" color={color}>
                             CREDITS
                         </NavText>
                 </a>

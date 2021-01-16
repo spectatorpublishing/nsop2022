@@ -17,11 +17,10 @@ const Wrapper2 = styled.div`
 `;
 
 const Header = styled.h1`
-    margin: 0rem;
+    margin: 3rem;
     font-size: 2rem;
     letter-spacing: .5rem;
     color: #251282;
-    padding-top: 2rem;
 
     @media ${device.tablet} {
         font-size: 3rem;
@@ -29,12 +28,6 @@ const Header = styled.h1`
     }
 
     @media ${device.laptopS} {
-        font-size: 3rem;
-        letter-spacing: 2rem;
-    }
-
-    @media ${device.laptop} {
-        font-size: 3rem;
         letter-spacing: 2rem;
     }
 `;
@@ -86,7 +79,7 @@ const Section = ( { id, articles, header, color } ) => {
                 </ArticlesWrap>
             </Wrapper2>
             <NavWrap>
-                <VerticalNav />
+                <VerticalNav color="#251282" />
             </NavWrap>
         </SectionWrap1>
     );
