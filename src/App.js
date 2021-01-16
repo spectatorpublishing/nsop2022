@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
 
-import Orientation from './containers/Orientation';
+import Home from './containers/Home';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Switch>
             <Route path='/' exact>
-              <Orientation />
+              <Home />
             </Route>       
         </Switch>
       </Router>

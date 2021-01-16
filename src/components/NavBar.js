@@ -1,28 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
+import styled from 'styled-components';
 
+import { device } from '../device';
 
-export default class Navbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      menuOpen: false,
-    };
+const Nav = styled.div`
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
 
-    this.closeMenu = this.closeMenu.bind(this);
-    this.handleStateChange = this.handleStateChange.bind(this);
-  }
+    @media ${device.laptopS} {
+        justify-content: flex-end;
+        padding-bottom: 0rem;
+    }
+`;
 
-  closeMenu() {
-    this.setState({ menuOpen: false });
-  }
-
-  handleStateChange(state) {
-    this.setState({ menuOpen: state.isOpen });
-  }
-
-  render() {
+const NavBar = () => {
     return (
-      <div>hi</div>
+        <Nav>
+            <a href="https://www.columbiaspectator.com/" target="_blank">
+                <img src="https://backtocampus.s3.amazonaws.com/spec_logo.png" alt="Columbia Daily Spectator Logo" width="220rem" />
+            </a>
+        </Nav>
     );
-  }
-}
+};
+
+export default NavBar;
