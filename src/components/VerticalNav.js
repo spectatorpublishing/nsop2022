@@ -5,6 +5,7 @@ const VertNav = styled.div`
     width: fit-content;
     margin-top: 20rem;
     text-align: center;
+    position: sticky;
 `;
 
 const Swirly = styled.svg`

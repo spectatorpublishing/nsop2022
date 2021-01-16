@@ -16,7 +16,7 @@ const Wrapper1 = styled.div`
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
-    height: 140vh;
+    height: 150vh;
 
     @media ${device.laptopS} {
         background: #251282;
@@ -84,6 +84,27 @@ const Back = styled.h1`
     }
 `;
 
+const Explore = styled.h1`
+    color: white;
+    font-size: .75rem;
+
+    @media ${device.tablet} {
+        font-size: 1rem;
+    }
+
+    @media ${device.laptopS} {
+        font-size: 1rem;
+        margin-top: 32rem;
+        position: absolute;
+        margin-left: 72vw;
+    }
+
+    @media ${device.laptop} {
+        font-size: 1rem;
+        margin-top: 39rem;
+    }
+`;
+
 const MobileNavWrap = styled.div`
         display: inherit;
         margin-top: -10rem;
@@ -101,6 +122,7 @@ const Home = () => (
             <TextWrapper>
                 <Welcome>WELCOME</Welcome>
                 <Back>BACK</Back>
+                <Explore>Explore Spectator's Back to Campus Issue</Explore>
                 <MobileNavWrap>
                     <VerticalNav color="white" />
                 </MobileNavWrap>
