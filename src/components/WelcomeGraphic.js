@@ -14,7 +14,7 @@ const ImgWrapper = styled.div`
 
 const Swirly = styled.svg`
     @media ${device.laptopS} {
-        padding-bottom: 15rem;
+        padding-bottom: 5rem;
     }
 
     @media ${device.laptop} {

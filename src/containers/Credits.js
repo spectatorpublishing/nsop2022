@@ -86,9 +86,11 @@ const CreditsSec = () => {
                 <CreditsText>
                     THE COLUMBIA DAILY SPECTATOR STAFF WHO MADE THIS ISSUE POSSIBLE
                 </CreditsText>
-                <CreditsButton>
-                    CREDITS
-                </CreditsButton>
+                <a href="/credits">
+                    <CreditsButton>
+                        CREDITS
+                    </CreditsButton>
+                </a>
             </Credits>
             <NavWrap>
                 <VerticalNav color="white" />
