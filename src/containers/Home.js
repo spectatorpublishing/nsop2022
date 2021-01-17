@@ -15,7 +15,7 @@ import { on_campus_articles } from '../data/on_campus_articles';
 import { other_articles } from '../data/other_articles';
 
 const Wrapper1 = styled.div`
-    background: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg) rgba(37, 18, 130, .45);
+    background: url(https://backtocampus.s3.amazonaws.com/low_steps.png) rgba(37, 18, 130, .45);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -31,6 +31,7 @@ const TextWrapper = styled.div`
     margin: auto;
     padding: 1rem;
     width: fit-content;
+    text-align: right;
 
     @media ${device.laptopS} {
         margin-left: 0;
@@ -97,6 +98,7 @@ const Explore = styled.h1`
 
     @media ${device.laptopS} {
         font-size: 1rem;
+        margin-right: inherit;
         margin-top: 32rem;
         position: absolute;
         margin-left: 72vw;

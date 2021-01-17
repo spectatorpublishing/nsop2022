@@ -10,7 +10,7 @@ import { device } from '../device';
 
 const SectionWrap5 = styled.div`
     display: flex;
-    background: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg) rgba(37, 18, 130, .45);
+    background: url(https://backtocampus.s3.amazonaws.com/low_steps.png) rgba(37, 18, 130, .45);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
