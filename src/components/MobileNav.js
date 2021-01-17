@@ -26,31 +26,31 @@ const MobileNavBar = ({color}) => {
     return (
         <NavWrap>
             <Swirly width="360" height="100" viewBox="0 -30 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <a href="#home">
+            <a href="/#home">
                         <NavText x="0" y="5" color={color}>HOME</NavText>
                 </a>
-                <a href="#student_life">
+                <a href="/#student_life">
                         <NavText x="50" y="30" color={color}>
                             <tspan x="50" dy="1.2em">STUDENT</tspan> 
                             <tspan x="50" dy="1.2em">LIFE</tspan></NavText>
                 </a>
-                <a href="#on_campus">
+                <a href="/#on_campus">
                         <NavText x="105" y="5" color={color}>
                             ON CAMPUS
                         </NavText>
                 </a>
-                <a href="#beyond_campus">
+                <a href="/#beyond_campus">
                         <NavText x="170" y="15" color={color}>
                             <tspan x="170" dy="1.2em">BEYOND</tspan> 
                             <tspan x="170" dy="1.2em">CAMPUS</tspan>
                             </NavText>
                 </a>
-                <a href="#name_tbd">
+                <a href="/#name_tbd">
                         <NavText x="260" y="10" color={color}>
                             <tspan x="260" dy="1.2em">NAME</tspan> 
                             <tspan x="260" dy="1.2em">TBD</tspan></NavText>
                 </a>
-                <a href="#credits">
+                <a href="/#credits">
                         <NavText x="310" y="50" color={color}>
                             CREDITS
                         </NavText>

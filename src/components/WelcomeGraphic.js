@@ -47,13 +47,13 @@ const WelcomeGraphic = () => {
         <ImgWrapper>
             <div>
                 <Swirly width="500" height="210" viewBox="-52 -50 500 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <a href="#home">
+                    <a href="/#home">
                         <NavText x="-20" y="40">HOME</NavText>
                     </a>
-                    <a href="#student_life">
+                    <a href="/#student_life">
                         <NavText x="110" y="145">STUDENT LIFE</NavText>
                     </a>
-                    <a href="#on_campus">
+                    <a href="/#on_campus">
                         <NavText x="210" y="-10" fill="white">ON CAMPUS</NavText>
                     </a>
                     <path d="M6 58.6785C6 58.6785 30.6615 121.784 69 137.46C142.229 167.401 128.172 -2.51782 208.5 1.05562C259.955 3.34461 268.608 61.3013 320 64.5308C374.794 67.9741 447 22 447 22" stroke="white"/>
@@ -61,13 +61,13 @@ const WelcomeGraphic = () => {
                 </Swirly>
                 <Illustration src="https://backtocampus.s3.amazonaws.com/low_steps.jpg" alt="Illustration of Low Library at Sunset" />
                 <Swirly width="433" height="300" viewBox="0 -30 433 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <a href="#beyond_campus">
+                    <a href="/#beyond_campus">
                         <NavText x="20" y="-10" fill="white">BEYOND CAMPUS</NavText> 
                     </a>
-                    <a href="#name_tbd">
+                    <a href="/#name_tbd">
                         <NavText x="120" y="145" fill="white">SECTION 4</NavText>  
                     </a>
-                    <a href="#credits">
+                    <a href="/#credits">
                         <NavText x="360" y="125" fill="white">CREDITS</NavText> 
                     </a>
                     <path d="M396.5 99.5C396.5 99.5 391 64 353.392 68.9364C315.784 73.8728 288.448 154.082 239.409 146.523C190.369 138.963 181.092 37.9019 141.772 8.45882C102.452 -20.9842 1 50 1 50" stroke="white"/>
