@@ -6,14 +6,10 @@ import CreditsPage from './containers/CreditsPage';
 
 function App() {
   return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-            <Route path='/' exact>
-              <Home />
-            </Route>   
-            <Route path='/credits' exact>
-                <CreditsPage />
-            </Route>    
+            <Route exact path='/' component={Home} />
+            <Route exact path='/credits' component={CreditsPage} />
         </Switch>
       </Router>
   );

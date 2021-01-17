@@ -15,6 +15,8 @@ const Swirly = styled.svg`
 const NavText = styled.text`
     font-weight: ${props => props.current ? 'bold': 500};
     fill: ${props => props.color};
+    font-size: .80rem;
+    letter-spacing: .1rem;
 
     :hover {
         font-weight: bold;
@@ -35,8 +37,8 @@ const NavBar = ({color, current}) => {
                 </a>
                 <a href="#on_campus">
                         <NavText x="-55" y="180" color={color} current={current === "on_campus"}>
-                            <tspan x="-10" dy="1.2em">ON</tspan> 
-                            <tspan x="-55" dy="1.2em">CAMPUS</tspan></NavText>
+                            <tspan x="-5" dy="1.2em">ON</tspan> 
+                            <tspan x="-45" dy="1.2em">CAMPUS</tspan></NavText>
                 </a>
                 <a href="#beyond_campus">
                         <NavText x="15" y="290" color={color} current={current === "beyond_campus"}>
@@ -49,7 +51,7 @@ const NavBar = ({color, current}) => {
                             <tspan x="-5" dy="1.2em">TBD</tspan></NavText>
                 </a>
                 <a href="#credits">
-                        <NavText x="45" y="500" color={color} current={current === "credits"}>
+                        <NavText x="10" y="512" color={color} current={current === "credits"}>
                             CREDITS
                         </NavText>
                 </a>

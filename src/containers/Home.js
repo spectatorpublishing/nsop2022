@@ -42,12 +42,12 @@ const TextWrapper = styled.div`
 
 const Welcome = styled.h1`
     color: white;
-    letter-spacing: .75rem;
+    letter-spacing: 1rem;
     font-size: 2rem;
 
     @media ${device.tablet} {
         font-size: 3rem;
-        letter-spacing: 4rem;
+        letter-spacing: 4.5rem;
     }
 
     @media ${device.laptopS} {
@@ -55,7 +55,7 @@ const Welcome = styled.h1`
         position: absolute;
         margin-left: 5vw;
         margin-top: 1rem;
-        letter-spacing: 5rem;
+        letter-spacing: 6rem;
     }
 
     @media ${device.laptop} {

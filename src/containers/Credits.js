@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 import VerticalNav from '../components/VerticalNav';
 import MobileNavBar from '../components/MobileNav';
@@ -86,11 +87,11 @@ const CreditsSec = () => {
                 <CreditsText>
                     THE COLUMBIA DAILY SPECTATOR STAFF WHO MADE THIS ISSUE POSSIBLE
                 </CreditsText>
-                <a href="/credits">
+                <Link to="/credits">
                     <CreditsButton>
                         CREDITS
                     </CreditsButton>
-                </a>
+                </Link>
             </Credits>
             <NavWrap>
                 <VerticalNav color="white" current="credits" />
