@@ -43,7 +43,7 @@ const TextWrapper = styled.div`
 const Welcome = styled.h1`
     color: white;
     letter-spacing: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 
     @media ${device.tablet} {
         font-size: 3rem;
@@ -65,7 +65,7 @@ const Welcome = styled.h1`
 
 const Back = styled.h1`
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: .75rem;
 
     @media ${device.tablet} {

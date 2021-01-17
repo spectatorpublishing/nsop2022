@@ -15,11 +15,15 @@ const Nav = styled.div`
     }
 `;
 
+const Img = styled.img`
+    width: 17rem;
+`;
+
 const NavBar = () => {
     return (
         <Nav>
             <a href="https://www.columbiaspectator.com/" target="_blank">
-                <img src="https://backtocampus.s3.amazonaws.com/spec_logo.png" alt="Columbia Daily Spectator Logo" width="220rem" />
+                <Img src="https://backtocampus.s3.amazonaws.com/spec_logo.png" alt="Columbia Daily Spectator Logo" />
             </a>
         </Nav>
     );

@@ -82,7 +82,7 @@ const CreditsSec = () => {
         <SectionWrap5 id="credits">
             <Credits>
                 <MobileNavWrap>
-                    <MobileNavBar color="white" />
+                    <MobileNavBar color="white" current="credits" />
                 </MobileNavWrap>
                 <CreditsText>
                     THE COLUMBIA DAILY SPECTATOR STAFF WHO MADE THIS ISSUE POSSIBLE

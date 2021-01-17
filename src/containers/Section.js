@@ -69,7 +69,7 @@ const Section = ( { id, articles, header, color } ) => {
         <SectionWrap1 id={id} color={color}>
             <Wrapper2>
                 <MobileNavWrap>
-                    <MobileNavBar color="#251282" />
+                    <MobileNavBar color="#251282" current={id} />
                 </MobileNavWrap>
                 <Header>{header}</Header> 
                 <ArticlesWrap>

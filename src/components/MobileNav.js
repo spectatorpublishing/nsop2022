@@ -13,8 +13,9 @@ const Swirly = styled.svg`
 `;
 
 const NavText = styled.text`
-    font-weight: 500;
-    font-size: .7rem;
+    font-weight: ${props => props.current ? 'bold': 500};
+    font-size: .70rem;
+    letter-spacing: .1rem;
     fill: ${props => props.color };
 
     :hover {
@@ -22,36 +23,36 @@ const NavText = styled.text`
     }
 `;
 
-const MobileNavBar = ({color}) => {
+const MobileNavBar = ({color, current}) => {
     return (
         <NavWrap>
             <Swirly width="360" height="100" viewBox="0 -30 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <a href="/#home">
-                        <NavText x="0" y="5" color={color}>HOME</NavText>
+                        <NavText x="0" y="5" color={color} current={current === "home"}>HOME</NavText>
                 </a>
                 <a href="/#student_life">
-                        <NavText x="50" y="30" color={color}>
+                        <NavText x="50" y="30" color={color} current={current === "student_life"}>
                             <tspan x="50" dy="1.2em">STUDENT</tspan> 
                             <tspan x="50" dy="1.2em">LIFE</tspan></NavText>
                 </a>
                 <a href="/#on_campus">
-                        <NavText x="105" y="5" color={color}>
+                        <NavText x="105" y="5" color={color} current={current === "on_campus"}> 
                             ON CAMPUS
                         </NavText>
                 </a>
                 <a href="/#beyond_campus">
-                        <NavText x="170" y="15" color={color}>
+                        <NavText x="170" y="15" color={color} current={current === "beyond_campus"}>
                             <tspan x="170" dy="1.2em">BEYOND</tspan> 
                             <tspan x="170" dy="1.2em">CAMPUS</tspan>
                             </NavText>
                 </a>
                 <a href="/#name_tbd">
-                        <NavText x="260" y="10" color={color}>
+                        <NavText x="260" y="10" color={color} current={current === "name_tbd"}>
                             <tspan x="260" dy="1.2em">NAME</tspan> 
                             <tspan x="260" dy="1.2em">TBD</tspan></NavText>
                 </a>
                 <a href="/#credits">
-                        <NavText x="310" y="50" color={color}>
+                        <NavText x="300" y="50" color={color} current={current === "credits"}>
                             CREDITS
                         </NavText>
                 </a>

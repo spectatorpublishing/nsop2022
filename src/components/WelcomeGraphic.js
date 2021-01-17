@@ -36,6 +36,7 @@ const Illustration = styled.img`
 const NavText = styled.text`
     font-weight: 500;
     fill: white;
+    letter-spacing: .15rem;
 
     :hover {
         font-weight: bold;
@@ -65,10 +66,10 @@ const WelcomeGraphic = () => {
                         <NavText x="20" y="-10" fill="white">BEYOND CAMPUS</NavText> 
                     </a>
                     <a href="/#name_tbd">
-                        <NavText x="120" y="145" fill="white">SECTION 4</NavText>  
+                        <NavText x="120" y="160" fill="white">SECTION 4</NavText>  
                     </a>
                     <a href="/#credits">
-                        <NavText x="360" y="125" fill="white">CREDITS</NavText> 
+                        <NavText x="350" y="125" fill="white">CREDITS</NavText> 
                     </a>
                     <path d="M396.5 99.5C396.5 99.5 391 64 353.392 68.9364C315.784 73.8728 288.448 154.082 239.409 146.523C190.369 138.963 181.092 37.9019 141.772 8.45882C102.452 -20.9842 1 50 1 50" stroke="white"/>
                     <ellipse rx="5.5" ry="5.3597" transform="matrix(-1 0 0 1 397.5 101.36)" fill="white"/>
