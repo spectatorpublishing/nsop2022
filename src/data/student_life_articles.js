@@ -18,10 +18,10 @@ export const student_life_articles = [
         article_link: "https://www.columbiaspectator.com/sports/2020/04/16/decade-in-review-a-golden-age-of-columbia-baseball/"
     },
     {
-        image_url: "https://www.columbiaspectator.com/sports/2020/04/06/a-decade-in-athletics-after-multiple-national-crowns-the-ncaa-podium-is-an-expectation-for-fencing/",
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HSIBFLD47ZCF5OIQLDBHWH5YSE.png",
         article_title: "A decade in athletics: After multiple national crowns, the NCAA podium is an expectation for fencing",
         article_authors: "Mackenzie George",
-        article_link: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HSIBFLD47ZCF5OIQLDBHWH5YSE.png"
+        article_link: "https://www.columbiaspectator.com/sports/2020/04/06/a-decade-in-athletics-after-multiple-national-crowns-the-ncaa-podium-is-an-expectation-for-fencing/"
     },
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MQ4P3Q2ZAFFIDMP3JLPPP7PYKY.gif",

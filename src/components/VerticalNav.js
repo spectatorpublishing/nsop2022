@@ -46,7 +46,7 @@ const NavBar = ({color, current}) => {
                             <tspan x="15" dy="1.2em">CAMPUS</tspan></NavText>
                 </a>
                 <a href="/#resources">
-                        <NavText x="-5" y="385" color={color} current={current === "resources"}>RESOURCES</NavText>
+                        <NavText x="-50" y="400" color={color} current={current === "resources"}>RESOURCES</NavText>
                 </a>
                 <a href="/#credits">
                         <NavText x="10" y="512" color={color} current={current === "credits"}>

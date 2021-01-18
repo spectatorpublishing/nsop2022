@@ -47,7 +47,7 @@ const MobileNavBar = ({color, current}) => {
                             </NavText>
                 </a>
                 <a href="/#resources">
-                        <NavText x="260" y="10" color={color} current={current === "resources"}>RESOURCES</NavText>
+                        <NavText x="250" y="15" color={color} current={current === "resources"}>RESOURCES</NavText>
                 </a>
                 <a href="/#credits">
                         <NavText x="300" y="50" color={color} current={current === "credits"}>

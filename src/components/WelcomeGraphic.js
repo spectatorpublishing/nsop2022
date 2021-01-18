@@ -66,7 +66,7 @@ const WelcomeGraphic = () => {
                         <NavText x="20" y="-10" fill="white">BEYOND CAMPUS</NavText> 
                     </a>
                     <a href="/#resources">
-                        <NavText x="120" y="160" fill="white">RESOURCES</NavText>  
+                        <NavText x="110" y="160" fill="white">RESOURCES</NavText>  
                     </a>
                     <a href="/#credits">
                         <NavText x="350" y="125" fill="white">CREDITS</NavText> 
