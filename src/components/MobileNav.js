@@ -46,10 +46,8 @@ const MobileNavBar = ({color, current}) => {
                             <tspan x="170" dy="1.2em">CAMPUS</tspan>
                             </NavText>
                 </a>
-                <a href="/#name_tbd">
-                        <NavText x="260" y="10" color={color} current={current === "name_tbd"}>
-                            <tspan x="260" dy="1.2em">NAME</tspan> 
-                            <tspan x="260" dy="1.2em">TBD</tspan></NavText>
+                <a href="/#resources">
+                        <NavText x="260" y="10" color={color} current={current === "resources"}>RESOURCES</NavText>
                 </a>
                 <a href="/#credits">
                         <NavText x="300" y="50" color={color} current={current === "credits"}>

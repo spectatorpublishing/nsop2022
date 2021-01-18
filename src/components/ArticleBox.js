@@ -38,7 +38,7 @@ const ArticleBox = ( { article } ) => {
     return (
         <ArticleWrap>
             <Link href={article.article_link}>
-                <ArticleImg src={article.image_url} alt={article.img_alt_text} />
+                <ArticleImg src={article.image_url} />
                 <ArticleText>
                     <Title>{article.article_title}</Title>
                     <Author>{article.article_authors}</Author>
