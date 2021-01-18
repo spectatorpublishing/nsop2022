@@ -24,7 +24,7 @@ export const beyond_campus_articles = [
         article_link: "https://www.columbiaspectator.com/arts-and-entertainment/2020/11/24/wallach-art-gallerys-uptown-triennial-2020-showcases-artists-of-color-in-dialogue-with-the-harlem-renaissance/"
     },
     {
-        image_url: "https://spectator-static-assets.s3.amazonaws.com/covid-vaccine/thumbnail-Artboard_1.96b71597.svg",
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WKRBHEZMOVHLBOS3NZSM2TVJ7I.png",
         article_title: "A COVID-19 vaccine is on its way, but a majority of West Harlem residents won’t see it anytime soonr",
         article_authors: "Elizabeth Commisso and Chloe Kok",
         article_link: "https://www.columbiaspectator.com/news/2020/08/04/a-covid-19-vaccine-is-on-its-way-but-a-majority-of-west-harlem-residents-wont-see-it-anytime-soon/"
