@@ -25,7 +25,7 @@ export const beyond_campus_articles = [
     },
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WKRBHEZMOVHLBOS3NZSM2TVJ7I.png",
-        article_title: "A COVID-19 vaccine is on its way, but a majority of West Harlem residents won’t see it anytime soonr",
+        article_title: "A COVID-19 vaccine is on its way, but a majority of West Harlem residents won’t see it anytime soon",
         article_authors: "Elizabeth Commisso and Chloe Kok",
         article_link: "https://www.columbiaspectator.com/news/2020/08/04/a-covid-19-vaccine-is-on-its-way-but-a-majority-of-west-harlem-residents-wont-see-it-anytime-soon/"
     },
