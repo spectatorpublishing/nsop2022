@@ -39,7 +39,7 @@ const Author = styled.p`
 const ArticleBox = ( { article } ) => {
     return (
         <ArticleWrap>
-            <Link href={article.article_link}>
+            <Link href={article.article_link} target="_blank" rel="noreferrer">
                 <ArticleImg src={article.image_url} />
                 <ArticleText>
                     <Title>{article.article_title}</Title>

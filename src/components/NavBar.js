@@ -22,7 +22,7 @@ const Img = styled.img`
 const NavBar = () => {
     return (
         <Nav>
-            <a href="https://www.columbiaspectator.com/" target="_blank">
+            <a href="https://www.columbiaspectator.com/" target="_blank" rel="noreferrer">
                 <Img src="https://backtocampus.s3.amazonaws.com/spec_logo.png" alt="Columbia Daily Spectator Logo" />
             </a>
         </Nav>
