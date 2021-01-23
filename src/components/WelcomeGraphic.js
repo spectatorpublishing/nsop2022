@@ -60,7 +60,7 @@ const WelcomeGraphic = () => {
                     <path d="M6 58.6785C6 58.6785 30.6615 121.784 69 137.46C142.229 167.401 128.172 -2.51782 208.5 1.05562C259.955 3.34461 268.608 61.3013 320 64.5308C374.794 67.9741 447 22 447 22" stroke="white"/>
                     <circle r="5.5" transform="matrix(-1 0 0 1 5.5 57.5)" fill="white"/>
                 </Swirly>
-                <Illustration src="https://backtocampus.s3.amazonaws.com/low_steps.png" alt="Illustration of Low Library at Sunset" />
+                <Illustration src="https://backtocampus.s3.amazonaws.com/low_steps.jpg" alt="Illustration of Low Library at Sunset" />
                 <Swirly width="433" height="300" viewBox="0 -30 433 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <a href="/#beyond_campus">
                         <NavText x="20" y="-10" fill="white">BEYOND CAMPUS</NavText> 

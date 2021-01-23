@@ -30,13 +30,7 @@ export const on_campus_articles = [
         article_link: "https://www.columbiaspectator.com/main/2020/12/23/the-petition-for-a-more-democratic-and-transparent-columbia-is-neither-democratic-nor-transparent/"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/37EFT3YKOJE2ZCAARGOM6TQEGQ.png",
-        article_title: "How to choose and manage extracurriculars as a first-year",
-        article_authors: "Victoria Yang",
-        article_link: "https://www.columbiaspectator.com/required-reading/2017/07/24/how-to-choose-and-manage-extracurriculars-as-a-first-year/"
-    },
-        {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/37EFT3YKOJE2ZCAARGOM6TQEGQ.png",
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N6HUGDNG6VB2LFAQ2C6ECPYD54.jpg",
         article_title: "A tuition strike for a democratized university",
         article_authors: "Emmaline Bennett and Becca Roskill",
         article_link: "https://www.columbiaspectator.com/opinion/2020/12/11/a-tuition-strike-for-a-democratized-university/"

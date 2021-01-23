@@ -17,6 +17,8 @@ const Link = styled.a`
 
 const ArticleImg = styled.img`
     width: inherit;
+    max-height: 15rem;
+    overflow: hidden;
     border-bottom: 3px solid #251282;
 `;
 

@@ -15,7 +15,7 @@ import { on_campus_articles } from '../data/on_campus_articles';
 import { resource_articles } from '../data/resource_articles';
 
 const Wrapper1 = styled.div`
-    background: url(https://backtocampus.s3.amazonaws.com/low_steps.png) rgba(37, 18, 130, .45);
+    background: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg) rgba(37, 18, 130, .45);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
