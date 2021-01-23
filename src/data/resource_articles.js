@@ -48,7 +48,7 @@ export const resource_articles = [
         article_link: "https://www.columbiaspectator.com/spectrum/2020/10/15/you-were-rejected-from-a-club-now-what/"
     },
     {
-        image_url: "https://www.columbiaspectator.com/spectrum/2020/11/16/an-easy-guide-to-academic-help-resources/",
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UORJZFJCPREYZFTYPQJJ77Y6NU.jpg",
         article_title: "An easy guide to academic help resources",
         article_authors: "Charlotte Wu",
         article_link: "https://www.columbiaspectator.com/spectrum/2020/11/16/an-easy-guide-to-academic-help-resources/"
