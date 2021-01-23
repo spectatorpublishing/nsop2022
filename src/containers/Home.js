@@ -21,6 +21,10 @@ const Wrapper1 = styled.div`
     background-position: center;
     height: 150vh;
 
+    @media ${device.tablet} {
+        height: 175vh;
+    }
+
     @media ${device.laptopS} {
         background: #251282;
         height: fit-content;
@@ -94,6 +98,7 @@ const Explore = styled.h1`
 
     @media ${device.tablet} {
         font-size: 1rem;
+        margin-right: 4rem;
     }
 
     @media ${device.laptopS} {
@@ -101,7 +106,7 @@ const Explore = styled.h1`
         margin-right: inherit;
         margin-top: 32rem;
         position: absolute;
-        margin-left: 72vw;
+        margin-left: 70vw;
     }
 
     @media ${device.laptop} {
