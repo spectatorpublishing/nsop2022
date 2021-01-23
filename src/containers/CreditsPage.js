@@ -53,7 +53,7 @@ const CreditsPage = () => {
         window.scroll({
             top: 0, 
             left: 0, 
-            behavior: 'smooth'
+            behavior: 'auto'
         });
     });
 
@@ -83,7 +83,7 @@ const CreditsPage = () => {
                     </SubDiv>
 
                     <SubDiv>
-                        <h2>Lead Illustration By:</h2>
+                        <h2>Lead Illustration By</h2>
                         <p>Liza Evseeva, Deputy Illustrations Editor</p>
                     </SubDiv>
                 </Row>
@@ -129,7 +129,6 @@ const CreditsPage = () => {
                             <p>Beatrice Shlansky, Photo Editor</p>
                             <p>Millie Felder, Deputy Photo Editor</p>
                         </div>
-
                     </SubDiv>
                     <SubDiv>
                         <div>
@@ -166,6 +165,17 @@ const CreditsPage = () => {
                             <p>Bernard Wang</p>
                             <p>Juliet Tochterman</p>
                         </div>
+
+                        <div>
+                            <h3>Spectrum</h3>
+                            <p>Ariana Novo, Deputy Spectrum Editor</p>
+                            <p>Lina Bennani Karim, Deputy Spectrum Editor</p>
+                            <p>Jane Mok, Deputy Spectrum Editor</p>
+                            <p>Swethaa Suresh</p>
+                            <p>Jazilah Salam</p>
+                            <p>Nandini Talwar</p>
+                            <p>Charlotte Wu</p>
+                        </div>
                     </SubDiv>
                     <SubDiv>
                         <div>
@@ -193,7 +203,13 @@ const CreditsPage = () => {
                             <p>Kathryn Cherven</p>
                             <p>Leif Wood</p>
                             <p>Renuka Balakrishnan</p>
-                        </div>         
+                        </div>
+                        <div>
+                            <h3>Video</h3>
+                            <p>Ryan Balderas</p>
+                            <p>Caitlin Buckley</p>
+                            <p>Rommel Nunez</p>
+                        </div>     
                     </SubDiv>
                 </Row>
             </Text>
