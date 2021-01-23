@@ -43,7 +43,7 @@ export const on_campus_articles = [
     },
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OS2SEDGVOVF7RANYPKSFZWHMQE.gif",
-        article_title: "“On the Road” and Back Again",
+        article_title: "‘On the Road’ and Back Again",
         article_authors: "Elizabeth Karpen",
         article_link: "https://www.columbiaspectator.com/the-eye/2021/01/21/on-the-road-and-back-again/"
     },
