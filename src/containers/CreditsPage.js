@@ -145,7 +145,6 @@ const CreditsPage = () => {
                         <div>
                             <h3>Illustrations</h3>
                             <p>Brenda Huang, Illustrations Editor</p>
-                            <p>Liza Evseeva, Deputy Illustrations Editor</p>
                             <p>Ray Banke, Deputy Illustrations Editor</p>
                             <p>Carlos Ochoa, Deputy Illustrations Editor</p>
                             <p>Ashley Jiao, Deputy Illustrations Editor</p>
@@ -165,17 +164,12 @@ const CreditsPage = () => {
                             <p>Bernard Wang</p>
                             <p>Juliet Tochterman</p>
                         </div>
-
                         <div>
-                            <h3>Spectrum</h3>
-                            <p>Ariana Novo, Deputy Spectrum Editor</p>
-                            <p>Lina Bennani Karim, Deputy Spectrum Editor</p>
-                            <p>Jane Mok, Deputy Spectrum Editor</p>
-                            <p>Swethaa Suresh</p>
-                            <p>Jazilah Salam</p>
-                            <p>Nandini Talwar</p>
-                            <p>Charlotte Wu</p>
-                        </div>
+                            <h3>Video</h3>
+                            <p>Ryan Balderas</p>
+                            <p>Caitlin Buckley</p>
+                            <p>Rommel Nunez</p>
+                        </div>     
                     </SubDiv>
                     <SubDiv>
                         <div>
@@ -205,11 +199,15 @@ const CreditsPage = () => {
                             <p>Renuka Balakrishnan</p>
                         </div>
                         <div>
-                            <h3>Video</h3>
-                            <p>Ryan Balderas</p>
-                            <p>Caitlin Buckley</p>
-                            <p>Rommel Nunez</p>
-                        </div>     
+                            <h3>Spectrum</h3>
+                            <p>Ariana Novo, Deputy Spectrum Editor</p>
+                            <p>Lina Bennani Karim, Deputy Spectrum Editor</p>
+                            <p>Jane Mok, Deputy Spectrum Editor</p>
+                            <p>Swethaa Suresh</p>
+                            <p>Jazilah Salam</p>
+                            <p>Nandini Talwar</p>
+                            <p>Charlotte Wu</p>
+                        </div>
                     </SubDiv>
                 </Row>
             </Text>
