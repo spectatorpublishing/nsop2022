@@ -34,5 +34,23 @@ export const student_life_articles = [
         article_title: "A decade in athletics: Marching band bans, the rise of Pilling, and Columbia Athletics’ revolution",
         article_authors: "Elizabeth Karpen",
         article_link: "https://www.columbiaspectator.com/sports/2020/06/16/a-decade-in-athletics-marching-band-bans-the-rise-of-pilling-and-columbia-athletics-revolution/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CI2G54KHKRA5TJDI5TM55V5O3I.jpg",
+        article_title: "‘We all are roses’: Mamadou., CC ’21, discusses faith and vulnerability in his debut album",
+        article_authors: "Esterah Brown",
+        article_link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/21/we-all-are-roses-mamadou-cc-21-discusses-faith-and-vulnerability-in-his-debut-album/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WSD7FIA5NZEEZE7DUKM7FQ2G6Q.gif",
+        article_title: "‘Skaters,’ an Olympian, and Me",
+        article_authors: "Juliet Tochterman",
+        article_link: "https://www.columbiaspectator.com/the-eye/2020/11/14/skaters-an-olympian-and-me/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5W7RTA76BNBALPGMVKDB36ORIU.jpg",
+        article_title: "The Geographical, Temporal, and Institutional Distance Between International Students and Columbia",
+        article_authors: "Cassie Wu and Derek Ng",
+        article_link: "https://www.columbiaspectator.com/the-eye/2020/12/04/the-geographical-temporal-and-institutional-distance-between-international-students-and-columbia/"
     }
 ];
