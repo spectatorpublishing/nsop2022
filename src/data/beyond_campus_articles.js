@@ -40,5 +40,35 @@ export const beyond_campus_articles = [
         article_title: "Columbia canceled housing contracts, so 14,000 students moved into the city. What does this mean for the local housing market?",
         article_authors: "Abby Melbourne and Stephanie Lai",
         article_link: "https://www.columbiaspectator.com/news/2020/11/11/columbia-canceled-housing-contracts-so-14000-students-moved-into-the-city-what-does-this-mean-for-the-local-housing-market/"
+    },
+     {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FI27W5OH2ZASZMRMGFAYVB5N4I.jpg",
+        article_title: "When restaurants struggle to survive, what does it mean for the community?",
+        article_authors: "Noah Sheidlower, Millie Felder, and Beatrice Shlansky",
+        article_link: "https://www.columbiaspectator.com/photo-essays/2021/01/21/when-restaurants-struggle-to-survive-what-does-it-mean-for-the-community/"
+    },
+     {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AARTR4WSYZCUZCZS4GU3NJXGNU.jpg",
+        article_title: "A look into Hex & Co., Manhattan’s largest board game cafe",
+        article_authors: "Noah Sheidlower, Ryan Balderas, and Caitlin Buckley",
+        article_link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/14/a-look-into-hex-co-manhattans-largest-board-game-cafe/"
+    },
+     {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Y6JMBX55Y5EK5L4LVA2PLA5YRU.jpg",
+        article_title: "Open for business: Local art galleries and studios offer opportunities for Columbia students",
+        article_authors: "Katie Levine and Vincent Hou",
+        article_link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/21/open-for-business-local-art-galleries-and-studios-offer-opportunities-for-columbia-students/"
+    },
+     {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LRU3SMOEDRHJRP5AYPBYNIOF5Q.png",
+        article_title: "An ale-inclusive look into Columbia’s campus bar scene",
+        article_authors: "Noah Sheidlower",
+        article_link: "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/20/an-ale-inclusive-look-into-columbias-campus-bar-scene/"
+    },
+     {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GNHR6DZXLJCQZAHIDDJAGAJVW4.jpg",
+        article_title: "More students are returning to on-campus housing amid a citywide COVID-19 spike. Local residents have concerns",
+        article_authors: "Katherine Nessel",
+        article_link: "https://www.columbiaspectator.com/news/2021/01/19/more-students-are-returning-to-on-campus-housing-amid-a-citywide-covid-19-spike-local-residents-have-concerns/"
     }
 ];
