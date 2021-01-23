@@ -46,5 +46,23 @@ export const on_campus_articles = [
         article_title: "“On the Road” and Back Again",
         article_authors: "Elizabeth Karpen",
         article_link: "https://www.columbiaspectator.com/the-eye/2021/01/21/on-the-road-and-back-again/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ULT5SUSDHJB3RKEWBWKDJLJNJM.jpg",
+        article_title: "With Dodge closed, here are the best workout alternatives in Morningside Heights ",
+        article_authors: "Bernard Wang",
+        article_link: "https://www.columbiaspectator.com/spectrum/2021/01/20/with-dodge-closed-here-are-the-best-workout-alternatives-in-morningside-heights/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/D4SCO5Q725B6VJCGCT5CP2XPLQ.jpg",
+        article_title: "COVID-19 inspires new courses that push students to think themselves out of the pandemic",
+        article_authors: "Bella Druckman",
+        article_link: "https://www.columbiaspectator.com/main/2021/01/19/covid-19-inspires-new-courses-that-push-students-to-think-themselves-out-of-the-pandemic/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FMENGH7PNBC63E6PXVDYSR6UWI.jpg",
+        article_title: "Local candidates join student organizers, back largest tuition strike in history at Sunday rally",
+        article_authors: "Abby Melbourne, Faith Andrews, and Maya Mitrasinovic",
+        article_link: "https://www.columbiaspectator.com/news/2021/01/18/local-candidates-join-student-organizers-back-largest-tuition-strike-in-history-at-sunday-rally/"
     }
 ];
