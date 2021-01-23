@@ -1,7 +1,7 @@
 export const on_campus_articles = [
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5NAL2ERLFFFVTLN2JGNBJFIBNI.gif",
-        article_title: "The New Columbia Bubble: First Generation, Low Income Students Form The Majority In Pandemic-Era Dorms",
+        article_title: "The New Columbia Bubble: First-Generation Low-Income Students Form The Majority In Pandemic-Era Dorms",
         article_authors: "Briani Netzahuatl",
         article_link: "https://www.columbiaspectator.com/the-eye/2020/12/14/new-columbia-bubble-first-generation-low-income-students-form-the-majority-in-pandemic-era-dorms/"
     },
@@ -31,7 +31,7 @@ export const on_campus_articles = [
     },
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N6HUGDNG6VB2LFAQ2C6ECPYD54.jpg",
-        article_title: "A tuition strike for a democratized university",
+        article_title: "A tuition strike for a democratized University",
         article_authors: "Emmaline Bennett and Becca Roskill",
         article_link: "https://www.columbiaspectator.com/opinion/2020/12/11/a-tuition-strike-for-a-democratized-university/"
     },

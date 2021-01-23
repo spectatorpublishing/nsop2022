@@ -69,7 +69,7 @@ const CreditsPage = () => (
                 <SubDiv>
                     <h2>Design and Development</h2>
                     <p>Erin McNulty, Head of Engineering</p>
-                    <p>Mirah Shi, Lead Product Designer</p>
+                    <p>Mirah Shi, Product Manager</p>
                 </SubDiv>
 
                 <SubDiv>
@@ -92,7 +92,7 @@ const CreditsPage = () => (
                         <p>Maya Mitrasinovic</p>
                         <p>Faith Andrews</p>
                         <p>Stephanie Lai</p>
-                        <p>Octavia Galaviz</p>
+                        <p>Octavio Galaviz</p>
                         <p>Kathy Fang</p>
                     </div>
 
@@ -128,7 +128,7 @@ const CreditsPage = () => (
                         <p>Cole Cahill, Lead Story Editor</p>
                         <p>Teresa Lawlor, View from Here Editor</p>
                         <p>Briani Netzahuatl, Features Editor</p>
-                        <p>Derek Ng, Associate Features Editor</p>
+                        <p>Derek Ng</p>
                         <p>Eve Washington</p>
                         <p>Cassie Wu</p>
                     </div>

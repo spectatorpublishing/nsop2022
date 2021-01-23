@@ -31,7 +31,7 @@ export const resource_articles = [
     },
     {
         image_url: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DJWKX53OQJFK5NQ2VXMQQFOIFU.jpg",
-        article_title: "A guide to securing a campus affiliated job",
+        article_title: "A guide to securing a campus-affiliated job",
         article_authors: "Jane Mok",
         article_link: "https://www.columbiaspectator.com/spectrum/2020/03/04/a-guide-to-securing-a-campus-affiliated-job/"
     },
