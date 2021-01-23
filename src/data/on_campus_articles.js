@@ -18,10 +18,16 @@ export const on_campus_articles = [
         article_link: "https://www.columbiaspectator.com/news/2021/01/21/columbia-invites-1800-students-back-to-campus-despite-social-distancing-violations-and-rising-cases/"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/37EFT3YKOJE2ZCAARGOM6TQEGQ.png",
-        article_title: "How to choose and manage extracurriculars as a first-year",
-        article_authors: "Victoria Yang",
-        article_link: "https://www.columbiaspectator.com/required-reading/2017/07/24/how-to-choose-and-manage-extracurriculars-as-a-first-year/"
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GJXTL7BULNCQRL3B6O2PF3M3YE.jpg",
+        article_title: "On campus and across the globe, the class of 2024 tries to connect with Columbia",
+        article_authors: "Faith Onyechere",
+        article_link: "https://www.columbiaspectator.com/news/2021/01/19/on-campus-and-across-the-globe-the-class-of-2024-tries-to-connect-with-columbia/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LGVTFZA6BVCMZJN7XWOW6PJ6EI.jpg",
+        article_title: "The petition for a more democratic and transparent Columbia is neither democratic nor transparent",
+        article_authors: "Kevin Petersen and Phillip A. Ruddy",
+        article_link: "https://www.columbiaspectator.com/main/2020/12/23/the-petition-for-a-more-democratic-and-transparent-columbia-is-neither-democratic-nor-transparent/"
     },
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/37EFT3YKOJE2ZCAARGOM6TQEGQ.png",
@@ -29,10 +35,22 @@ export const on_campus_articles = [
         article_authors: "Victoria Yang",
         article_link: "https://www.columbiaspectator.com/required-reading/2017/07/24/how-to-choose-and-manage-extracurriculars-as-a-first-year/"
     },
-    {
+        {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/37EFT3YKOJE2ZCAARGOM6TQEGQ.png",
-        article_title: "How to choose and manage extracurriculars as a first-year",
-        article_authors: "Victoria Yang",
-        article_link: "https://www.columbiaspectator.com/required-reading/2017/07/24/how-to-choose-and-manage-extracurriculars-as-a-first-year/"
+        article_title: "A tuition strike for a democratized university",
+        article_authors: "Emmaline Bennett and Becca Roskill",
+        article_link: "https://www.columbiaspectator.com/opinion/2020/12/11/a-tuition-strike-for-a-democratized-university/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/A3M4R3QDEVHHFEHPG4MSL2VHDY.jpg",
+        article_title: "Refusing to pay for tuition isn’t a strike",
+        article_authors: "Philip Jang",
+        article_link: "https://www.columbiaspectator.com/opinion/2020/12/11/refusing-to-pay-for-tuition-isnt-a-strike/"
+    },
+    {
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OS2SEDGVOVF7RANYPKSFZWHMQE.gif",
+        article_title: "“On the Road” and Back Again",
+        article_authors: "Elizabeth Karpen",
+        article_link: "https://www.columbiaspectator.com/the-eye/2021/01/21/on-the-road-and-back-again/"
     }
 ];
