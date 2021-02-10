@@ -1,11 +1,12 @@
-# Back to Campus Issue :tada:
+# Black History Month Issue :tada:
 
 ### To Deploy
-1) Clone the repo `git clone https://github.com/spectatorpublishing/backtocampus.git`
+1) Clone the repo `git clone git@github.com:NewsroomDevelopment/bhm-issue.git`
 2) Make sure you have the latest changes: `git pull origin master`
-3) In the root directory, run `npm run deploy`
-4) On the `gh-pages` branch, add a file called `CNAME`. Inside `CNAME`, write `backtocampus.columbiadailyspectator.com`. This is how it displays at the proper URL. You have to do this each time you redploy. If you are having a github pages 404 :bug:, you probably forgot to do this.
-5) Visit backtocampus.columbiadailyspectator.com to see your beautiful work.
+3) Install dependencies by running `npm install`
+4) In the root directory, run `npm run deploy`
+5) On the `gh-pages` branch, add a file called `CNAME`. Inside `CNAME`, write `backtocampus.columbiadailyspectator.com`. This is how it displays at the proper URL. You have to do this each time you redploy. If you are having a github pages 404 :bug:, you probably forgot to do this.
+6) Visit blm.columbiadailyspectator.com to see your beautiful work.
 
 
 # React stuff:

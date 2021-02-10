@@ -9,10 +9,6 @@ import NavBar from '../components/NavBar';
 import WelcomeGraphic from '../components/WelcomeGraphic';
 import VerticalNav from '../components/VerticalNav';
 
-import { student_life_articles } from '../data/student_life_articles';
-import { beyond_campus_articles } from '../data/beyond_campus_articles';
-import { on_campus_articles } from '../data/on_campus_articles';
-import { resource_articles } from '../data/resource_articles';
 
 const Wrapper1 = styled.div`
     background: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg) rgba(37, 18, 130, .45);
@@ -139,10 +135,6 @@ const Home = () => (
             </TextWrapper>
             <WelcomeGraphic />
         </Wrapper1>
-        <Section id="student_life" header="STUDENT LIFE" color="#E4DDEE" articles={student_life_articles} />
-        <Section id="on_campus" header="ON CAMPUS" color="#FFC0A5" articles={on_campus_articles} />
-        <Section id="beyond_campus" header="BEYOND CAMPUS" color="#FFECA5" articles={beyond_campus_articles} />
-        <Section id="resources" header="RESOURCES" color="#C7D6FF" articles={resource_articles} />
         <CreditsSec />
     </>
 );

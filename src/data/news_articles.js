@@ -1,4 +1,4 @@
-export const beyond_campus_articles = [
+export const news_articles = [
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WIUXZQFBPVA3JNOTH46T4SA22U.jpg",
         article_title: "As classrooms confine students to discussing social issues in theory, many have returned home to enact real change",

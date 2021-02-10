@@ -1,4 +1,4 @@
-export const student_life_articles = [
+export const sports_articles = [
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6VOZQKM3DZEIXHAHG673EEUWXE.jpeg",
         article_title: "The power of smelly ethnic food",

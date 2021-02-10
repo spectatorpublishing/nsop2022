@@ -30,7 +30,7 @@ const NavBar = ({color, current}) => {
                 <a href="/#home">
                         <NavText x="0" y="-10" color={color} current={current === "home"}>HOME</NavText>
                 </a>
-                <a href="/#student_life">
+                <a href="/news">
                         <NavText x="25" y="90" color={color} current={current === "student_life"}>
                             <tspan x="25" dy="1.2em">STUDENT</tspan> 
                             <tspan x="25" dy="1.2em">LIFE</tspan></NavText>

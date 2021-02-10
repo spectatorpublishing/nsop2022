@@ -1,4 +1,4 @@
-export const on_campus_articles = [
+export const opinion_articles = [
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5NAL2ERLFFFVTLN2JGNBJFIBNI.gif",
         article_title: "The New Columbia Bubble: First-Generation Low-Income Students Form The Majority In Pandemic-Era Dorms",

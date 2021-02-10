@@ -1,4 +1,4 @@
-export const resource_articles = [
+export const eye_articles = [
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EZJJ32WVA5G6ZHVL3V7YZ4DHZU.jpg",
         article_title: "A master list for your off-campus apartment",
