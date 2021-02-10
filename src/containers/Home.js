@@ -5,6 +5,7 @@ import { device } from '../device';
 
 import Section from './Section';
 import CreditsSec from './Credits';
+import LetterSec from './LetterEditor';
 import NavBar from '../components/NavBar';
 import WelcomeGraphic from '../components/WelcomeGraphic';
 import VerticalNav from '../components/VerticalNav';
@@ -25,6 +26,11 @@ const Wrapper1 = styled.div`
         background: #251282;
         height: fit-content;
     }
+`;
+
+const Wrapper = styled.div`
+    padding-left:3.5%;
+    padding-right:3.5%;
 `;
 
 const TextWrapper = styled.div`
@@ -123,19 +129,23 @@ const MobileNavWrap = styled.div`
 
 const Home = () => (
     <>
-        <Wrapper1 id="home">
-            <NavBar />
-            <TextWrapper>
-                <Welcome>WELCOME</Welcome>
-                <Back>BACK</Back>
-                <Explore>Explore Spectator's Back to Campus Issue</Explore>
-                <MobileNavWrap>
-                    <VerticalNav color="white" current="home" />
-                </MobileNavWrap>
-            </TextWrapper>
-            <WelcomeGraphic />
-        </Wrapper1>
-        <CreditsSec />
+        <Wrapper>
+            <Wrapper1 id="home">
+                <NavBar />
+                <TextWrapper>
+                    <Welcome>WELCOME</Welcome>
+                    <Back>BACK</Back>
+                    <Explore>Explore Spectator's Back to Campus Issue</Explore>
+                    <MobileNavWrap>
+                        <VerticalNav color="white" current="home" />
+                    </MobileNavWrap>
+                </TextWrapper>
+                <WelcomeGraphic />
+            </Wrapper1>
+
+            <LetterSec />
+            <CreditsSec />
+        </Wrapper>
     </>
 );
 

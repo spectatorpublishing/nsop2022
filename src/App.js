@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './containers/Home';
-import News from './containers/Section';
-import CreditsPage from './containers/CreditsPage';
 import Section from './containers/Section';
 
 import { news_articles } from './data/news_articles';
