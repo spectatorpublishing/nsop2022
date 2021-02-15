@@ -81,9 +81,6 @@ const CreditsSec = () => {
     return (
         <SectionWrap5 id="credits">
             <Credits>
-                <MobileNavWrap>
-                    <MobileNavBar color="white" current="credits" />
-                </MobileNavWrap>
                 <CreditsText>
                     THE COLUMBIA DAILY SPECTATOR STAFF WHO MADE THIS ISSUE POSSIBLE
                 </CreditsText>
@@ -93,9 +90,7 @@ const CreditsSec = () => {
                     </CreditsButton>
                 </Link>
             </Credits>
-            <NavWrap>
-                <VerticalNav color="white" current="credits" />
-            </NavWrap>
+ 
         </SectionWrap5>
     );
 };

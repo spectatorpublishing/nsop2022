@@ -6,12 +6,12 @@ import { device } from '../device';
 const Nav = styled.div`
     display: flex;
     padding: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
     justify-content: center;
 
     @media ${device.laptopS} {
         justify-content: flex-end;
-        padding-bottom: 0rem;
     }
 `;
 
