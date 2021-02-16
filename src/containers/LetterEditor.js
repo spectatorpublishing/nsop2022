@@ -9,12 +9,12 @@ const LetterWrap = styled.div`
 const Title = styled.div`
     font-style: normal;
     font-weight: 900;
-    font-size: 6em;
+    font-size: 5em;
     letter-spacing: 0.05em;
     color:rgba(0, 0, 0, 0);
     -webkit-text-stroke: 1px white;
     
-    padding:2vh 0 2vh 0;
+    padding:6vh 0 2vh 0;
     word-wrap:break-word;
 `;
 

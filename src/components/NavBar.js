@@ -12,6 +12,7 @@ const Nav = styled.div`
 
     @media ${device.laptopS} {
         justify-content: flex-end;
+        display:none;
     }
 `;
 

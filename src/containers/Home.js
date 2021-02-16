@@ -12,20 +12,16 @@ import VerticalNav from '../components/VerticalNav';
 
 
 const CoverWrapper = styled.div`
-    background: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg) rgba(37, 18, 130, .45);
+    background: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UQ4JFQMSONFXJHSBKTCU64BQGQ.png);
     background-size: cover;
-    background-position: center;
-    height: 90vh;
+    background-position: bottom;
     width:95%;
-
-    @media ${device.laptopS} {
-        background: #251282;
-    }
+    height:120vh;
 `;
 
 const Wrapper = styled.div`
-    padding-left:3.5%;
-    padding-right:3.5%;
+    padding-left:4%;
+    padding-right:4%;
 `;
 
 const TextWrapper = styled.div`
