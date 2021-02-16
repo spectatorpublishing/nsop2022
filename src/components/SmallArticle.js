@@ -4,41 +4,43 @@ import styled from 'styled-components';
 const ArticleWrap = styled.div`
     display: flex;
     flex-direction: column;
-    width: 20rem;
-    border: 3px solid #251282;
-    background: white;
-    margin: 1rem;
+    width:37vw;
+    margin-left: ${props => props.right ? "0vw" : "4vw"};
+    margin-right: ${props => props.right ? "4vw" : "0vw"};
+    margin-top: 2vw;
+    margin-bottom:2vw;
+
 `;
 
 const Link = styled.a`
     text-decoration: none;
-    width: inherit;
+    width: 100%;
+    justify-content:flex-start;
 `;
 
 const ArticleImg = styled.img`
     width: inherit;
-    max-height: 15rem;
+    max-height: 20rem;
     overflow: hidden;
-    border-bottom: 3px solid #251282;
 `;
 
 const ArticleText = styled.div`
     text-align: left;
-    padding: 0rem 1rem;
-    color: #251282;
+    color: white;
 `;
 
 const Title = styled.p`
-    font-weight: bold;
+    font-weight: 900;
     font-size: 1.25rem;
 `;
 
 const Author = styled.p`
 `;
 
-const ArticleBox = ( { article } ) => {
+
+const ArticleBox = ({ article, right }) => {
     return (
-        <ArticleWrap>
+        <ArticleWrap right={right}>
             <Link href={article.article_link} target="_blank" rel="noreferrer">
                 <ArticleImg src={article.image_url} />
                 <ArticleText>

@@ -3,13 +3,18 @@ import styled from 'styled-components';
 
 import { device } from '../device';
 
-import ArticleBox from '../components/ArticleBox';
 import VerticalNav from '../components/VerticalNav';
 import MobileNavBar from '../components/MobileNav';
+import BigArticle from '../components/BigArticle';
+import MediumArticle from '../components/MediumArticle';
+import SmallArticle from '../components/SmallArticle';
+import NavigationSec from '../components/Navigation';
 
 const SectionWrap1 = styled.div`
-    display: flex;
+
     background: ${props => props.color};
+    padding-left:7%;
+    padding-right:7%;
 `;
 
 const Wrapper2 = styled.div`
@@ -19,8 +24,9 @@ const Wrapper2 = styled.div`
 const Header = styled.h1`
     margin: 3rem;
     font-size: 2rem;
-    letter-spacing: .5rem;
-    color: #251282;
+    letter-spacing: .05rem;
+    color:rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px white;
 
     @media ${device.tablet} {
         font-size: 3rem;
@@ -28,7 +34,7 @@ const Header = styled.h1`
     }
 
     @media ${device.laptopS} {
-        letter-spacing: 2rem;
+        letter-spacing: 1rem;
     }
 `;
 
@@ -43,15 +49,11 @@ const NavWrap = styled.div`
 
     @media ${device.tablet} {
         display: inherit;
-        padding-bottom: 10rem;
-    }
-
-    @media ${device.laptopS} {
-        padding-bottom: 15rem;
+        padding-bottom: 4rem;
     }
 
     @media ${device.laptop} {
-        padding-bottom: 20rem;
+        padding-bottom: 3rem;
     }
 `;
 
@@ -64,20 +66,29 @@ const MobileNavWrap = styled.div`
 `;
 
 
-const Section = ( { id, articles, header, color } ) => {
+const Section = ({ id, articles, header, color, next, link }) => {
     return (
         <SectionWrap1 id={id} color={color}>
             <Wrapper2>
                 <MobileNavWrap>
                     <MobileNavBar color="#251282" current={id} />
                 </MobileNavWrap>
-                <Header>{header}</Header> 
+                <Header>{header}</Header>
                 <ArticlesWrap>
-                    {articles.map(article => (
-                        <ArticleBox article={article} />
-                    ))}
+                    {articles.map((article, index) => {
+                        if (index === 0) {
+                            console.log("hi");
+                            return <BigArticle article={article} />
+                        } else if (index === 1) {
+                            return <MediumArticle article={article} position="right" />
+                        } else if (index === 2) {
+                            return <MediumArticle Article article={article} position="left" />
+                        } else
+                            return <SmallArticle article={article} right={index % 2} />
+                    })}
                 </ArticlesWrap>
             </Wrapper2>
+            <NavigationSec first={false} next={next} link={link} />
             <NavWrap>
                 <VerticalNav color="#251282" current={id} />
             </NavWrap>

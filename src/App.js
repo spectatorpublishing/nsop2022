@@ -14,11 +14,11 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/news' render={() => <Section id="news" header="NEWS" color="#FFC0A5" articles={news_articles} />} />
-        <Route exact path='/opinion' render={() => <Section id="opinion" header="OPINION" color="#FFC0A5" articles={opinion_articles} />} />
-        <Route exact path='/the-eye' render={() => <Section id="eye" header="THE EYE" color="#FFC0A5" articles={eye_articles} />} />
-        <Route exact path='/sports' render={() => <Section id="sports" header="SPORTS" color="#FFC0A5" articles={sports_articles} />} />
-        <Route exact path='/a&e' render={() => <Section id="a&e" header="SPORTS" color="#FFC0A5" articles={sports_articles} />} />
+        <Route exact path='/news' render={() => <Section id="news" header="NEWS" articles={news_articles} next="Opinion" link="/opinion" />} />
+        <Route exact path='/opinion' render={() => <Section id="opinion" header="OPINION" articles={opinion_articles} next="The Eye" link="/the-eye"/>} />
+        <Route exact path='/the-eye' render={() => <Section id="eye" header="THE EYE" articles={eye_articles} next="Sports" link="/sports"/>} />
+        <Route exact path='/sports' render={() => <Section id="sports" header="SPORTS" articles={sports_articles} next="a&e" link="/a&e"/>} />
+        <Route exact path='/a&e' render={() => <Section id="a&e" header="SPORTS" articles={sports_articles} next="Home" link="/"/>} />
       </Switch>
     </Router>
   );
