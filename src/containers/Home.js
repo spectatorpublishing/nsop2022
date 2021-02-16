@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import { device } from '../device';
 
 import Section from './Section';
-import CreditsSec from './Creditss';
+import CreditsSec from './Credits';
 import LetterSec from './LetterEditor';
-import NavigationSec from './Navigation'
+import NavigationSec from '../components/Navigation'
 import NavBar from '../components/NavBar';
 import VerticalNav from '../components/VerticalNav';
 
@@ -95,7 +95,7 @@ const Home = () => {
             </CoverWrapper>
 
             <LetterSec />
-            <NavigationSec />
+            <NavigationSec  first={true} next="news" link="/news" />
             <CreditsSec />
         </Wrapper>
 

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { device } from '../device';
 import '../index.css';
 const LetterWrap = styled.div`
-    height:100vh;
+    min-height:100vh;
 `;
 
 const Title = styled.div`
