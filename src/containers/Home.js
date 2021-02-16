@@ -15,13 +15,13 @@ const CoverWrapper = styled.div`
     background: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UQ4JFQMSONFXJHSBKTCU64BQGQ.png);
     background-size: cover;
     background-position: bottom;
-    width:95%;
-    height:120vh;
+    width:100%;
+    height:110vh;
 `;
 
 const Wrapper = styled.div`
-    padding-left:4%;
-    padding-right:4%;
+    padding-left:5%;
+    padding-right:5%;
 `;
 
 const TextWrapper = styled.div`
@@ -78,6 +78,23 @@ const NavWrap = styled.div`
     }
 `;
 
+const TextWrap = styled.div`
+    font-size: 7.375em;
+    position:relative;
+    top:5%;
+    font-weight:bold;
+    left:3%;
+    color:rgba(172, 186, 237, 1);
+    font-style: italic;
+`;
+
+const PartOneText = styled.div`
+`;
+
+const PartTwoText = styled.div`
+    padding-left:3vh;
+    padding-top:2vh;
+`;
 const Home = () => {
     return (
 
@@ -85,13 +102,17 @@ const Home = () => {
 
             <NavBar />
             <CoverWrapper id="home">
+                <TextWrap>
+                    <PartOneText>black history</PartOneText>
+                    <PartTwoText>month edition</PartTwoText>
+                </TextWrap>
                 <NavWrap>
                     <VerticalNav color="white" current="home" />
                 </NavWrap>
             </CoverWrapper>
 
             <LetterSec />
-            <NavigationSec  first={true} next="news" link="/news" />
+            <NavigationSec first={true} next="news" link="/news" />
             <CreditsSec />
         </Wrapper>
 

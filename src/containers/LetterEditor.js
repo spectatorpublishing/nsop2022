@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { device } from '../device';
 import '../index.css';
 const LetterWrap = styled.div`
-    min-height:100vh;
+    padding-bottom:5vh;
 `;
 
 const Title = styled.div`
@@ -22,7 +22,7 @@ const Body = styled.div`
     font-size: 1.5em; 
     color:white;
     word-wrap:break-word;
-    width:85vw;
+    width:100%;
 `;
 
 const LetterEditor = () => {

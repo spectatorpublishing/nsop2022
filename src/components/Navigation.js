@@ -10,7 +10,7 @@ const NavWrap = styled.div`
     align-items: center;
     background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/A5Z2BNPLOBD4NKQUF4CESB6SJQ.png) #6B6BA2;
     background-size: cover;
-    background-position: bottom;
+    background-position: 30% 80%;
 `;
 
 const Title = styled.div`
@@ -21,12 +21,12 @@ const Title = styled.div`
 
 const TextWrap = styled.div`
     border: solid 1px white;
-    width:70%;
+    width:40%;
     margin:auto;
-    font-family:"Barlow";
+    font-family:"Barlow", sans-serif;
     text-transform:uppercase;
-    padding-top:7.5vh;
-    padding-bottom:7.5vh;
+    padding-top:5vh;
+    padding-bottom:5vh;
     font-size: 2.5em;
     color:white;
     text-align:center;

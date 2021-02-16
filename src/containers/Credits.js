@@ -4,7 +4,9 @@ import { device } from '../device';
 import '../index.css';
 
 const LetterWrap = styled.div`
-    height:100vh;
+    padding-top:5vh;
+    border:solid 1px white;
+    margin-top:5vh;
 `;
 
 const Title = styled.div`
@@ -31,6 +33,8 @@ const Credits = styled.div`
     width:65%;
     margin-left:auto;
     margin-right:auto;
+    padding-top:2vh;
+    padding-bottom:2vh;
     
 `;
 const Body = styled.div`
