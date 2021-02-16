@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ArticleWrap = styled.div`
-    background: white;
     height:80vh;
     width:100%;
     margin-top:7.5vh;
@@ -18,6 +17,18 @@ const ArticleImg = styled.img`
     width: inherit;
     height:100%;
     overflow: hidden;
+    z-index:-1;
+    opacity:0.35;
+    transition-duration:1s;
+    :hover {
+        opacity:1;
+    }
+`;
+
+const ImageWrap = styled.div`
+    background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
+    width: inherit;
+    height:100%;
 `;
 
 const ArticleText = styled.div`
@@ -50,7 +61,9 @@ const BigArticle = ({ article }) => {
     return (
         <ArticleWrap>
             <Link href={article.article_link} target="_blank" rel="noreferrer">
-                <ArticleImg src={article.image_url} />
+                <ImageWrap>
+                    <ArticleImg src={article.image_url} />
+                </ImageWrap>
                 <TextWrap>
                     <ArticleText>
                         <Title>{article.article_title}</Title>

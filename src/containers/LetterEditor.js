@@ -13,7 +13,6 @@ const Title = styled.div`
     letter-spacing: 0.05em;
     color:rgba(0, 0, 0, 0);
     -webkit-text-stroke: 1px white;
-    
     padding:6vh 0 2vh 0;
     word-wrap:break-word;
 `;

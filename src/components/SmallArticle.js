@@ -22,7 +22,21 @@ const ArticleImg = styled.img`
     width: inherit;
     max-height: 20rem;
     overflow: hidden;
+    opacity:0.35;
+    transition-duration:1s;
+    :hover {
+        opacity:1;
+    }
 `;
+
+const ImageWrap = styled.div`
+    background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
+    z-index:10;
+    width: inherit;
+    max-height: 20rem;
+    transition-duration:1s;
+`;
+
 
 const ArticleText = styled.div`
     text-align: left;
@@ -42,7 +56,9 @@ const ArticleBox = ({ article, right }) => {
     return (
         <ArticleWrap right={right}>
             <Link href={article.article_link} target="_blank" rel="noreferrer">
-                <ArticleImg src={article.image_url} />
+                <ImageWrap>
+                    <ArticleImg src={article.image_url} />
+                </ImageWrap>
                 <ArticleText>
                     <Title>{article.article_title}</Title>
                     <Author>{article.article_authors}</Author>

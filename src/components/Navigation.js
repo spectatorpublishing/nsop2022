@@ -19,7 +19,7 @@ const Title = styled.div`
     padding:0vh 0 2vh 0;
 `;
 
-const TextWrap = styled.div`
+const TextWrap = styled.a`
     border: solid 1px white;
     width:40%;
     margin:auto;
@@ -30,17 +30,22 @@ const TextWrap = styled.div`
     font-size: 2.5em;
     color:white;
     text-align:center;
+    text-decoration:none;
+    transition-duration:1s;
+    :hover {
+        background-color:white;
+        color:black;
+    }
 `;
 
 const Next = styled.div`
-    color:white;
     word-wrap:break-word;
     text-align:center;
     font-weight: 700;
 
     a {
         text-decoration:none;
-        color:white;
+        color:inherit;
         :hover {
             text-decoration:underline;
         }
@@ -48,15 +53,14 @@ const Next = styled.div`
 `;
 
 const NavigationSec = ({ first, next, link }) => {
-    console.log(first)
-    console.log(next)
     return (
         <NavWrap>
-            <TextWrap>
+            <TextWrap href={link}>
                 <Title>{first == true ? "Begin Reading" : "Continue"}</Title>
-                <Next>Next: <a href={link}>{next} </a></Next>
+                <Next>Next: {next}</Next>
             </TextWrap>
         </NavWrap>
+
     );
 };
 

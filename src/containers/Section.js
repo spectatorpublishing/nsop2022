@@ -13,28 +13,28 @@ import NavigationSec from '../components/Navigation';
 const SectionWrap1 = styled.div`
 
     background: ${props => props.color};
-    padding-left:7%;
-    padding-right:7%;
+    padding-left:9%;
+    padding-right:9%;
 `;
 
 const Wrapper2 = styled.div`
-    text-align: center;
 `;
 
 const Header = styled.h1`
-    margin: 3rem;
     font-size: 2rem;
     letter-spacing: .05rem;
     color:rgba(0, 0, 0, 0);
     -webkit-text-stroke: 1px white;
-
+    position:absolute;
+    top:10vh;
+    left:5vh;
     @media ${device.tablet} {
         font-size: 3rem;
-        letter-spacing: 1rem;
+        letter-spacing: .1rem;
     }
 
     @media ${device.laptopS} {
-        letter-spacing: 1rem;
+        letter-spacing: .1rem;
     }
 `;
 

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import { device } from '../device';
 
-import Section from './Section';
 import CreditsSec from './Credits';
 import LetterSec from './LetterEditor';
 import NavigationSec from '../components/Navigation'

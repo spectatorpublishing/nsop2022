@@ -9,7 +9,7 @@ const VertNav = styled.div`
     font-weight:700;
 `;
 
-const Tab = styled.div`
+const Tab = styled.a`
     display:block;
     margin-bottom: 5vh;
     position:relative;
@@ -17,10 +17,24 @@ const Tab = styled.div`
     color: ${props => props.current ? 'black' : 'white'};
     background-color: ${props => props.current ? 'rgba(172, 186, 237, 1)' : 'none'};
     padding:  ${props => props.current ? '1vw 2vw 1vw 7vw' : 'auto'};
-
+    height:  ${props => props.current ? '3vh' : 'auto'};
+    width:  ${props => props.current ? '10vw' : 'auto'};
+    text-decoration:none;
     div {
-        width: ${props => props.current ? '0%' : 'auto'};
+        width: ${props => props.current ? '100%' : 'auto'};
         font-size: ${props => props.current ? '1.5em' : '1em'};
+    }
+
+    :hover {
+        color: black;
+        background-color:rgba(172, 186, 237, 1);
+        padding: 1vw 2vw 1vw 7vw;
+        height:  ${props => props.current ? '3vh' : 'auto'};
+        width:  ${props => props.current ? '10vw' : 'auto'};
+        div {
+            width: 100%;
+            font-size: 1.5em;
+        }
     }
 
 `;
@@ -28,60 +42,50 @@ const NavText = styled.div`
     letter-spacing: .1rem;
     text-transform: uppercase;
     position:relative;
-
-    a {
-        text-decoration: none;
-        color: inherit;
-
-        :hover {
-        font-weight: bold;
-        }
-
-    }
-
+    width:100%;
 `;
 
-const logo = {
-    height: "38px",
-    width: "36px"
-}
 
-
+const Logo = styled.div`
+    margin-bottom:5vh;
+`;
 const NavBar = ({ current }) => {
     console.log(current)
     return (
         <VertNav>
-            <a href="https://www.columbiaspectator.com/"><img style={{
-                height: "38px",
-                width: "36px",
-                marginBottom: "5vh"
-            }} src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LC75RL476NFG3P677LOBAW2MXE.png"></img></a>
-            <Tab current={current === "home"}>
-                <NavText > <a href="/">HOME </a></NavText>
+            <Logo>
+                <a href="https://www.columbiaspectator.com/" style={{
+                }}><img style={{
+                    height: "38px",
+                    width: "36px",
+                }} src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LC75RL476NFG3P677LOBAW2MXE.png"></img></a>
+            </Logo>
+            <Tab href="/" current={current === "home"}>
+                <NavText> HOME </NavText>
             </Tab>
-            <Tab current={current === "news"}>
+            <Tab href="/news" current={current === "news"}>
                 <NavText>
-                    <a href="/news">NEWS</a>
+                    NEWS
                 </NavText>
             </Tab>
-            <Tab current={current === "opinion"}>
+            <Tab href="/opinion" current={current === "opinion"}>
                 <NavText >
-                    <a href="/opinion">Opinion</a>
+                    Opinion
                 </NavText>
             </Tab>
-            <Tab current={current === "sports"}>
+            <Tab href="/sports" current={current === "sports"}>
                 <NavText >
-                    <a href="/sports"> Sports</a>
+                    Sports
                 </NavText>
             </Tab>
-            <Tab current={current === "a&e"}>
+            <Tab href="/a&e" current={current === "a&e"}>
                 <NavText >
-                    <a href="/a&e"> A&E</a>
+                    A&E
                 </NavText>
             </Tab>
-            <Tab current={current === "eye"}>
+            <Tab href="/the-eye" current={current === "eye"}>
                 <NavText >
-                    <a href="/the-eye"> THE EYE</a>
+                    THE EYE
                 </NavText>
             </Tab>
         </VertNav >

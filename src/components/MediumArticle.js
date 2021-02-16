@@ -18,15 +18,29 @@ const Link = styled.a`
 `;
 
 const ArticleImg = styled.img`
-    width: 60%;
-    height:100%;
+    width: 50vw;
+    height:60vh;
+    order: ${props => props.position === "left" ? "1" : "2"};
+    opacity:0.35;
+    transition-duration:1s;
+    :hover {
+        opacity:1;
+    }
+`;
+
+const ImageWrap = styled.div`
+    background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
+    width:50vw;
+    height:60vh;
+    z-index:10;
     order: ${props => props.position === "left" ? "1" : "2"};
 `;
+
 
 const ArticleText = styled.div`
     text-align: left;
     color: #251282;
-    width:${props => props.position === "left" ? "100%" : "115%"};
+    width:${props => props.position === "left" ? "110%" : "115%"};
 `;
 
 const Title = styled.p`
@@ -56,7 +70,9 @@ const MediumArticle = ({ article, position }) => {
     return (
         <ArticleWrap>
             <Link href={article.article_link} target="_blank" rel="noreferrer">
-                <ArticleImg position={position} src={article.image_url} />
+                <ImageWrap>
+                    <ArticleImg position={position} src={article.image_url} />
+                </ImageWrap>
                 <TextWrap position={position}>
                     <ArticleText position={position}>
                         <Title>{article.article_title}</Title>
