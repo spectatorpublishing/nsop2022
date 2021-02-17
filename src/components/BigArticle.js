@@ -17,8 +17,9 @@ const ArticleImg = styled.img`
     width: inherit;
     height:100%;
     overflow: hidden;
-    z-index:-1;
-    opacity:0.35;
+    position:relative;
+    z-index:2;
+    opacity:1;
     transition-duration:1s;
     :hover {
         opacity:1;
@@ -29,6 +30,24 @@ const ImageWrap = styled.div`
     background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
     width: inherit;
     height:100%;
+    z-index:2;
+    position:relative;
+    :after {
+        content:'';
+        position:absolute;
+        left:0; top:0;
+        width:100%; height:100%;
+        display:inline-block;
+        transition-duration:1s;
+        z-index:5;
+        opacity:1;
+        background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
+    }
+    :hover::after {
+        transition-duration:1s;
+        opacity:0;
+    }
+
 `;
 
 const ArticleText = styled.div`
@@ -47,6 +66,7 @@ const Author = styled.p`
 
 const TextWrap = styled.div`
     position:relative;
+    z-index:3;
     right:0;
     float:right;
     bottom:10vh;

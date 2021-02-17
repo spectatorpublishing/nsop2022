@@ -22,11 +22,17 @@ const ArticleImg = styled.img`
     width: inherit;
     max-height: 20rem;
     overflow: hidden;
-    opacity:0.35;
+    opacity:1;
+    position:relative;
+    z-index:2;
     transition-duration:1s;
     :hover {
         opacity:1;
     }
+    object-fit: cover;
+    display:block;
+
+    
 `;
 
 const ImageWrap = styled.div`
@@ -35,8 +41,23 @@ const ImageWrap = styled.div`
     width: inherit;
     max-height: 20rem;
     transition-duration:1s;
+    position: relative;
+    :after {
+        content:'';
+        position:absolute;
+        left:0; top:0;
+        width:100%; height:100%;
+        display:inline-block;
+        transition-duration:1s;
+        z-index:5;
+        opacity:1;
+        background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
+    }
+    :hover::after {
+        transition-duration:1s;
+        opacity:0;
+    }
 `;
-
 
 const ArticleText = styled.div`
     text-align: left;

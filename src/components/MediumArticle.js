@@ -21,7 +21,9 @@ const ArticleImg = styled.img`
     width: 50vw;
     height:60vh;
     order: ${props => props.position === "left" ? "1" : "2"};
-    opacity:0.35;
+    opacity:1;
+    position:relative;
+    z-index:2;
     transition-duration:1s;
     :hover {
         opacity:1;
@@ -33,7 +35,23 @@ const ImageWrap = styled.div`
     width:50vw;
     height:60vh;
     z-index:10;
+    position:relative;
     order: ${props => props.position === "left" ? "1" : "2"};
+    :after {
+        content:'';
+        position:absolute;
+        left:0; top:0;
+        width:100%; height:100%;
+        display:inline-block;
+        transition-duration:1s;
+        z-index:5;
+        opacity:1;
+        background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
+    }
+    :hover::after {
+        transition-duration:1s;
+        opacity:0;
+    }
 `;
 
 

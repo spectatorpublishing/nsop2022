@@ -7,6 +7,7 @@ const VertNav = styled.div`
     right: 1vw;
     top:3vh;
     font-weight:700;
+    z-index:100;
 `;
 
 const Tab = styled.a`
