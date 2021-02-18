@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const ArticleWrap = styled.div`
     height:80vh;
-    width:100%;
+    width:82vw;
     margin-top:7.5vh;
     margin-bottom:7.5vh;
 

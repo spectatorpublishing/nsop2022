@@ -77,24 +77,26 @@ const MobileNavWrap = styled.div`
 `;
 
 const Section = ({ id, articles, header, color, next, link }) => {
-    const [dimensions, setDimensions] = React.useState({
-        height: window.innerHeight,
-        width: window.innerWidth
-    })
+    const [dimensions, setDimensions] = React.useState({})
 
     const mobile = dimensions.width < 500;
 
     React.useEffect(() => {
+        setDimensions({
+            height: window.innerHeight,
+            width: window.innerWidth
+        });
+
+        window.scrollTo(0, 0);
         function handleResize() {
             setDimensions({
                 height: window.innerHeight,
                 width: window.innerWidth
             })
-
         }
 
         window.addEventListener('resize', handleResize)
-    })
+    }, [])
     let last_index = articles.length - 4;
     return (
         <div>

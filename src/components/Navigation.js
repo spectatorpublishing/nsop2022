@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { device } from '../device';
+import { Link } from 'react-router-dom';
+
 import '../index.css';
 
 const NavWrap = styled.div`
@@ -63,11 +65,16 @@ const Next = styled.div`
 const NavigationSec = ({ first, next, link }) => {
     return (
         <NavWrap>
-            <TextWrap href={link}>
-                <Title>{first == true ? "Begin Reading" : "Continue"}</Title>
-                <Next>Next: {next}</Next>
+
+            <TextWrap>
+                <Link style={{ color:"inherit", textDecoration: 'none' }} to={link}>
+                    <Title>{first == true ? "Begin Reading" : "Continue"}</Title>
+
+                    <Next>Next: {next}</Next>
+                </Link>
             </TextWrap>
-        </NavWrap>
+
+        </NavWrap >
 
     );
 };
