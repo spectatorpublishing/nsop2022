@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const ArticleWrap = styled.div`
     display: flex;
-    height:70vh;
+    height:40vw;
     width:100%;
     margin-top:7.5vh;
     margin-bottom:7.5vh;
@@ -13,7 +13,7 @@ const ArticleWrap = styled.div`
         margin-top:3vh;
     }
     @media (max-width: 800px) {
-        height:50vh;
+        height:40vw;
     }
 `;
 
@@ -27,7 +27,7 @@ const Link = styled.a`
 
 const ArticleImg = styled.img`
     width: 50vw;
-    height:60vh;
+    height:40vw;
     order: ${props => props.position === "left" ? "1" : "2"};
     opacity:1;
     position:relative;
@@ -43,14 +43,13 @@ const ArticleImg = styled.img`
 
     @media (max-width: 800px) {
         width: 50vw;
-        height:30vh;
     }
 `;
 
 const ImageWrap = styled.div`
     background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
     width:50vw;
-    height:60vh;
+    height:40vw;
     z-index:10;
     position:relative;
     order: ${props => props.position === "left" ? "1" : "2"};
@@ -77,7 +76,6 @@ const ImageWrap = styled.div`
 
     @media (max-width: 800px) {
         width: 50vw;
-        height:30vh;
     }
     
 `;

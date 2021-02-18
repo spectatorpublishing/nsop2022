@@ -2,14 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ArticleWrap = styled.div`
-    height:90vh;
+    height:60vw;
     width:82vw;
     margin-top:7.5vh;
     margin-bottom:7.5vh;
 
     @media (max-width: 500px) {
-        height:40vh !important;
         margin-bottom: 2.5vh;
+        width:92vw;
+        height:70vw !important;
     }
 
     @media (max-width: 800px) {

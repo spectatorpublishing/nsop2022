@@ -74,6 +74,15 @@ const Row = styled.div`
     @media ${device.tablet} {
         justify-content: space-evenly;
     }
+
+    @media (max-width: 1000px) {
+        font-size:0.75em;
+
+    }
+    @media (max-width: 768px) {
+        font-size:1em !important;
+
+    }
 `;
 
 const Content = styled.div`
@@ -122,6 +131,7 @@ const LetterEditor = () => {
                             <p>Maya Mitrasinovic</p>
                             <p>Faith Andrews</p>
                             <p>Irie Sentner</p>
+                            <p>Octavio Galaviz</p>
                         </div>
                         <div>
                             <h3>Arts and Entertainment</h3>
@@ -228,8 +238,8 @@ const LetterEditor = () => {
                         </div>
                         <div>
                             <h3>Spec Audio</h3>
-                            <p>Spec Audio
-                            Samuel Hyman, Executive Editor of the Ear</p>
+                            <p>
+                                Samuel Hyman, Executive Editor of the Ear</p>
                         </div>
                     </SubDiv>
                 </Row>

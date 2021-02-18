@@ -80,27 +80,39 @@ const MobileNavWrap = styled.div`
 const Section = ({ id, articles, header, color, next, link }) => {
     const [dimensions, setDimensions] = React.useState({
         height: window.innerHeight,
-        width: window.innerWidth
-    })
+        width: window.innerWidth,
+    });
+    const [isMobile, setMobile] = React.useState(false);
+    const [lastIndex, setLastIndex] = React.useState(articles.length - 4);
+    const [renderLines, setRenderLines] = React.useState(false);
 
-    const mobile = dimensions.width < 500;
-    console.log(mobile)
+    console.log(dimensions.last_index)
     React.useEffect(() => {
-        setDimensions({
-            height: window.innerHeight,
-            width: window.innerWidth
-        });
+        if (dimensions.width < 500)
+            setMobile(true)
+
+        setTimeout(function () { //Start the timer
+            setRenderLines(true)
+        }, 500)
 
         function handleResize() {
             setDimensions({
                 height: window.innerHeight,
                 width: window.innerWidth
             })
+            if (dimensions.width < 500)
+                setMobile(true)
+            else
+                setMobile(false)
+
+            setRenderLines(false)
+            setTimeout(function () { //Start the timer
+                setRenderLines(true)
+            }, 500)
         }
 
         window.addEventListener('resize', handleResize)
     }, [])
-    let last_index = articles.length - 4;
     return (
         <div>
             <MobileNav current={id} />
@@ -113,7 +125,7 @@ const Section = ({ id, articles, header, color, next, link }) => {
                                 return (<div className="A" ><BigArticle article={article} /></div>
                                 )
                             } else if (index === 1) {
-                                if (mobile) {
+                                if (isMobile) {
                                     return (<div className="B">
                                         <SmallArticle article={article} />
                                     </div>)
@@ -125,7 +137,7 @@ const Section = ({ id, articles, header, color, next, link }) => {
                                 }
 
                             } else if (index === 2) {
-                                if (mobile) {
+                                if (isMobile) {
                                     return (<div className="C">
                                         <SmallArticle article={article} />
                                     </div>)
@@ -136,14 +148,14 @@ const Section = ({ id, articles, header, color, next, link }) => {
                                     </div>)
                                 }
                             } else
-                                return (<div style={{ 'marginRight': ((last_index === (index - 3)) && (last_index % 2 === 0) && (dimensions.width > 500)) ? "40vw" : "0" }} className={"D" + (index - 3)}><SmallArticle article={article} right={index % 2} /></div>)
+                                return (<div style={{ 'marginRight': ((lastIndex === (index - 3)) && (lastIndex % 2 === 0) && (!isMobile)) ? "40vw" : "0" }} className={"D" + (index - 3)}><SmallArticle article={article} right={index % 2} /></div>)
                         })}
                     </ArticlesWrap>
                 </Wrapper2>
                 <div className="Nav">
                     <NavigationSec first={false} next={next} link={link} />
                 </div>
-                <Lines last_index={last_index} mobile={mobile} />
+                {renderLines && <Lines last_index={lastIndex} mobile={isMobile} />}
                 <NavWrap>
                     <VerticalNav color="#251282" current={id} />
                 </NavWrap>

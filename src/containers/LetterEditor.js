@@ -50,6 +50,9 @@ const LetterEditor = () => {
                 <p>Within Spectator’s Black History Month issue, you can find coverage of the development of distinct foodways and food trends in Harlem; profiles of Black student activists, haircare entrepreneurs, and musicians whose heritage has influenced their craft; and an examination of the University’s failure to provide resources to students who want to learn art forms with roots in the Black community like tap dance or jazz music. Furthermore, the issue explores new developments in uplifting marginalized voices, both in professors’ attempts to address racism through adjusting syllabi to highlight Black and other historically underrepresented scholars and through the University’s racial justice mini-grants.</p>
                 <p>Columbia is an institution with a long history of racial injustice, and its narratives have often been whitewashed. We hope that within this edition you can learn more about the long-overlooked contributions that Black scholars, activists, and creatives have made to the Columbia and larger West Harlem community.
 </p>
+                <hr></hr>
+                <p>Sarah Braka, Editor in Chief</p>
+                <p>Elizabeth Karpen, Managing Editor</p>
             </Body></LetterWrap>
     );
 };
