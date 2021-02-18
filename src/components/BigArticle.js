@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ArticleWrap = styled.div`
-    height:80vh;
+    height:90vh;
     width:82vw;
     margin-top:7.5vh;
     margin-bottom:7.5vh;
@@ -79,6 +79,7 @@ const Title = styled.p`
 `;
 
 const Author = styled.p`
+    text-transform:capitalize;
     @media (max-width: 500px) {
         font-size:0.5rem;
     }
