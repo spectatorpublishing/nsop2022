@@ -4,6 +4,12 @@ import { device } from '../device';
 import '../index.css';
 const LetterWrap = styled.div`
     padding-bottom:5vh;
+
+    @media (max-width: 768px) {
+        padding-left:4%;
+        padding-right:4%;
+    }
+
 `;
 
 const Title = styled.div`
@@ -15,6 +21,11 @@ const Title = styled.div`
     -webkit-text-stroke: 1px white;
     padding:6vh 0 2vh 0;
     word-wrap:break-word;
+
+    @media (max-width: 768px) {
+        font-size: 2em;
+    }
+
 `;
 
 const Body = styled.div`
@@ -22,6 +33,10 @@ const Body = styled.div`
     color:white;
     word-wrap:break-word;
     width:100%;
+
+    @media (max-width: 768px) {
+        font-size: 1em;
+    }
 `;
 
 const LetterEditor = () => {

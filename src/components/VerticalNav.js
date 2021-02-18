@@ -17,7 +17,7 @@ const Tab = styled.a`
     text-align:right;
     color: ${props => props.current ? 'black' : 'white'};
     background-color: ${props => props.current ? 'rgba(172, 186, 237, 1)' : 'none'};
-    padding:  ${props => props.current ? '1vw 2vw 1vw 7vw' : 'auto'};
+    padding:  ${props => props.current ? '1vw 2vw 1.5vw 7vw' : 'auto'};
     height:  ${props => props.current ? '3vh' : 'auto'};
     width:  ${props => props.current ? '10vw' : 'auto'};
     text-decoration:none;

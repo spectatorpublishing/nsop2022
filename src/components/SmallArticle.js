@@ -9,7 +9,12 @@ const ArticleWrap = styled.div`
     margin-right: ${props => props.right ? "4vw" : "0vw"};
     margin-top: 2vw;
     margin-bottom:2vw;
-
+    @media (max-width: 500px) {
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+        margin-top:7vw;
+    }
 `;
 
 const Link = styled.a`
@@ -67,9 +72,18 @@ const ArticleText = styled.div`
 const Title = styled.p`
     font-weight: 900;
     font-size: 1.25rem;
+
+    @media (max-width: 500px) {
+        font-size:0.75rem;
+        width:70%;
+    }
 `;
 
 const Author = styled.p`
+  @media (max-width: 500px) {
+        font-size:0.5rem;
+        width:70%;
+    }
 `;
 
 

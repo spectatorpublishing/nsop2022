@@ -6,9 +6,8 @@ import { device } from '../device';
 import CreditsSec from './Credits';
 import LetterSec from './LetterEditor';
 import NavigationSec from '../components/Navigation'
-import NavBar from '../components/NavBar';
 import VerticalNav from '../components/VerticalNav';
-
+import MobileNav from '../components/MobileNav';
 
 const CoverWrapper = styled.div`
     background: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UQ4JFQMSONFXJHSBKTCU64BQGQ.png);
@@ -16,57 +15,29 @@ const CoverWrapper = styled.div`
     background-position: bottom;
     width:100%;
     height:110vh;
+
+    @media (max-width: 500px) {
+        width:100%;
+        height:40vh;
+        margin-top:25vw;
+    }
+
+    @media (max-width: 768px) {
+        height:60vh;
+    }
 `;
 
 const Wrapper = styled.div`
-    padding-left:5%;
-    padding-right:5%;
-`;
-
-const TextWrapper = styled.div`
-    margin: auto;
-    padding: 1rem;
-    width: fit-content;
-    text-align: right;
-
-    @media ${device.laptopS} {
-        margin-left: 0;
-        background: none;
-        padding: 0;
-        width: inherit;
+    padding-left:7%;
+    padding-right:7%;
+    overflow-x:hidden;
+    @media (max-width: 768px) {
+        height:100vh;
+        padding-left:0%;
+        padding-right:0%;
     }
 `;
 
-const Title = styled.h1`
-    color: white;
-    letter-spacing: 1rem;
-    font-size: 2.5rem;
-
-    @media ${device.tablet} {
-        font-size: 3rem;
-        letter-spacing: 4.5rem;
-    }
-
-    @media ${device.laptopS} {
-        font-size: 5rem;
-        position: absolute;
-        margin-left: 5vw;
-        margin-top: 1rem;
-        letter-spacing: 6rem;
-    }
-
-    @media ${device.laptop} {
-        font-size: 7rem;
-    }
-`;
-
-const MobileNavWrap = styled.div`
-        display: inherit;
-
-        @media ${device.laptopS} {
-            display: none;
-        }
-`;
 
 const NavWrap = styled.div`
     display: none;
@@ -85,21 +56,85 @@ const TextWrap = styled.div`
     left:3%;
     color:rgba(172, 186, 237, 1);
     font-style: italic;
+    @media (max-width: 501px) {
+        display:none;
+    }
+    @media (max-width: 768px) {
+        font-size:5em;
+    }
+`;
+
+const TextWrapMobile = styled.div`    
+    font-size: 2.5em;
+    position:relative;
+    color:white;
+    font-style:italic;
+    height:auto;
+    font-weight:900;
+    letter-spacing:1px;
+    div {
+        position: relative;
+        display: inline-block;
+        padding: 0.5em 0.5em 0.5em 0.25em;
+        overflow: hidden;
+        color: #fff;
+    }
+    
+    @media (min-width: 500px) {
+            display: none;
+    }
 `;
 
 const PartOneText = styled.div`
+    @media (max-width: 500px) {
+        left:0%;
+        padding:2vw;
+        :after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color:#0102C1;
+            transform-origin: 100% 0;
+            transform: skew(-10deg);
+            z-index: -1;
+        }
+    }
 `;
 
 const PartTwoText = styled.div`
-    padding-left:3vh;
-    padding-top:2vh;
+    margin-left:3vh;
+    margin-top:2vh;
+    @media (max-width: 500px) {
+        float:right;
+        margin-top:0vh;
+        padding:2vw;
+        :after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color:#0102C1;
+            transform-origin: 0% 100%;
+            transform: skew(-10deg);
+            z-index: -1;
+        }
+    }
 `;
 const Home = () => {
     return (
 
         <Wrapper>
 
-            <NavBar />
+            <MobileNav current="home" />
+            <TextWrapMobile>
+                <PartOneText>black history</PartOneText>
+                <PartTwoText>month edition</PartTwoText>
+            </TextWrapMobile>
             <CoverWrapper id="home">
                 <TextWrap>
                     <PartOneText>black history</PartOneText>

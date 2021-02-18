@@ -11,12 +11,16 @@ const NavWrap = styled.div`
     background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/A5Z2BNPLOBD4NKQUF4CESB6SJQ.png) #6B6BA2;
     background-size: cover;
     background-position: 30% 80%;
+    @media (max-width: 768px) {
+        height:25vh;
+    }
 `;
 
 const Title = styled.div`
     font-style: normal;
     font-weight:400;
     padding:0vh 0 2vh 0;
+
 `;
 
 const TextWrap = styled.a`
@@ -35,6 +39,10 @@ const TextWrap = styled.a`
     :hover {
         background-color:white;
         color:black;
+    }
+    @media (max-width: 768px) {
+        font-size:1.5em;
+        width:80%;
     }
 `;
 

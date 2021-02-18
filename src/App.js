@@ -18,7 +18,7 @@ function App() {
         <Route exact path='/opinion' render={() => <Section id="opinion" header="OPINION" articles={opinion_articles} next="The Eye" link="/the-eye"/>} />
         <Route exact path='/the-eye' render={() => <Section id="eye" header="THE EYE" articles={eye_articles} next="Sports" link="/sports"/>} />
         <Route exact path='/sports' render={() => <Section id="sports" header="SPORTS" articles={sports_articles} next="a&e" link="/a&e"/>} />
-        <Route exact path='/a&e' render={() => <Section id="a&e" header="SPORTS" articles={sports_articles} next="Home" link="/"/>} />
+        <Route exact path='/a&e' render={() => <Section id="a&e" header="A&E" articles={sports_articles} next="Home" link="/"/>} />
       </Switch>
     </Router>
   );

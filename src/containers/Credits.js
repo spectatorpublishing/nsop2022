@@ -7,6 +7,11 @@ const LetterWrap = styled.div`
     padding-top:5vh;
     border:solid 1px white;
     margin-top:5vh;
+
+    @media (max-width: 768px) {
+        margin-left:4%;
+        margin-right:4%;
+    }
 `;
 
 const Title = styled.div`
@@ -22,6 +27,13 @@ const Title = styled.div`
     
     padding:2vh 0 2vh 0;
     word-wrap:break-word;
+
+    @media (max-width: 768px) {
+        font-size:1.75em;
+        width:90%;
+        padding:1vh 0 1vh 0;
+    }
+    
 `;
 
 const Credits = styled.div`

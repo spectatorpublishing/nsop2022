@@ -6,6 +6,16 @@ const ArticleWrap = styled.div`
     width:100%;
     margin-top:7.5vh;
     margin-bottom:7.5vh;
+
+    @media (max-width: 500px) {
+        height:40vh !important;
+        margin-bottom: 2.5vh;
+    }
+
+    @media (max-width: 800px) {
+        height:50vh;
+        margin-bottom: 2.5vh;
+    }
 `;
 
 const Link = styled.a`
@@ -54,14 +64,24 @@ const ArticleText = styled.div`
     text-align: left;
     padding: 0.5rem 2rem;
     color: rgba(38, 36, 57, 1);
+    @media (max-width: 500px) {
+        padding: 0.25rem 1rem;
+    }
 `;
 
 const Title = styled.p`
     font-weight: bold;
     font-size: 1.25rem;
+
+    @media (max-width: 500px) {
+        font-size:0.75rem;
+    }
 `;
 
 const Author = styled.p`
+    @media (max-width: 500px) {
+        font-size:0.5rem;
+    }
 `;
 
 const TextWrap = styled.div`
@@ -72,6 +92,9 @@ const TextWrap = styled.div`
     bottom:10vh;
     background-color:white;
     width:40%;
+    @media (max-width: 500px) {
+        width:60%;
+    }
 `;
 
 

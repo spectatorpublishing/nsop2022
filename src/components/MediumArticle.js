@@ -7,6 +7,14 @@ const ArticleWrap = styled.div`
     width:100%;
     margin-top:7.5vh;
     margin-bottom:7.5vh;
+
+    @media (max-width: 500px) {
+        height:35vh;
+        margin-top:3vh;
+    }
+    @media (max-width: 800px) {
+        height:50vh;
+    }
 `;
 
 const Link = styled.a`
@@ -27,6 +35,15 @@ const ArticleImg = styled.img`
     transition-duration:1s;
     :hover {
         opacity:1;
+    }
+    @media (max-width: 500px) {
+        width: 100vw;
+        max-height: 100rem;
+    }
+
+    @media (max-width: 800px) {
+        width: 50vw;
+        height:30vh;
     }
 `;
 
@@ -52,6 +69,17 @@ const ImageWrap = styled.div`
         transition-duration:1s;
         opacity:0;
     }
+    @media (max-width: 500px) {
+        width: 100vw;
+        max-height: 100rem;
+        order:none;
+    }
+
+    @media (max-width: 800px) {
+        width: 50vw;
+        height:30vh;
+    }
+    
 `;
 
 
@@ -66,11 +94,17 @@ const Title = styled.p`
     font-size:2.5em;
     color:white;
 
+    @media (max-width: 800px) {
+        font-size:1.5em;
+    }
 `;
 
 const Author = styled.p`
     font-size:1.5em;
     color:white;
+    @media (max-width: 800px) {
+        font-size:1em;
+    }
 
 `;
 
@@ -80,6 +114,13 @@ const TextWrap = styled.div`
     z-index:100;
     position:relative;
     left:${props => props.position === "left" ? "-10%" : "0%"};
+    width: inherit;
+    max-height: 40rem;
+    @media (max-width: 500px) {
+        order:none;
+        width:100%;
+        left:0%;
+    }
 `;
 
 

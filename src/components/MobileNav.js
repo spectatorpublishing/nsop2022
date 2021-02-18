@@ -1,65 +1,79 @@
 import React from 'react';
 import styled from 'styled-components';
+import HamburgerMenu from 'react-hamburger-menu';
+import { fallDown as Menu } from 'react-burger-menu';
+import "../index.css";
 
 const NavWrap = styled.div`
-    width: fit-content;
     text-align: center;
     margin: auto;
     padding-top: 0rem;
-`;
-
-const Swirly = styled.svg`
-
-`;
-
-const NavText = styled.text`
-    font-weight: ${props => props.current ? 'bold': 500};
-    font-size: .70rem;
-    letter-spacing: .1rem;
-    fill: ${props => props.color };
-
-    :hover {
-        font-weight: bold;
+    height:10vh;
+    justify-content: space-between;
+    align-items:center;
+    display:flex;
+    position:sticky;
+    top:0;
+    left:0;
+    flex-wrap: wrap;
+    z-index:100;
+    background-color:#282439;
+    @media (min-width: 500px) {
+       display:none;
     }
 `;
 
-const MobileNavBar = ({color, current}) => {
+const Tab = styled.a`
+    background-color:${props => props.current ? "rgba(172, 186, 237, 1)": "inherit"};
+    color:${props => props.current ? "black": "white"};
+`;
+const Logo = styled.div`
+    z-index:100;
+    position:relative;
+    left:5%;
+`;
+const MobileNavBar = ({ color, current }) => {
+    const [open, setOpen] = React.useState(false);
+
+    function handleClick() {
+        console.log(open)
+        setOpen(!open)
+    }
+
     return (
+
         <NavWrap>
-            <Swirly width="360" height="100" viewBox="0 -30 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <a href="/#home">
-                        <NavText x="0" y="5" color={color} current={current === "home"}>HOME</NavText>
-                </a>
-                <a href="/#student_life">
-                        <NavText x="50" y="30" color={color} current={current === "student_life"}>
-                            <tspan x="50" dy="1.2em">STUDENT</tspan> 
-                            <tspan x="50" dy="1.2em">LIFE</tspan></NavText>
-                </a>
-                <a href="/#on_campus">
-                        <NavText x="105" y="5" color={color} current={current === "on_campus"}> 
-                            ON CAMPUS
-                        </NavText>
-                </a>
-                <a href="/#beyond_campus">
-                        <NavText x="170" y="15" color={color} current={current === "beyond_campus"}>
-                            <tspan x="170" dy="1.2em">BEYOND</tspan> 
-                            <tspan x="170" dy="1.2em">CAMPUS</tspan>
-                            </NavText>
-                </a>
-                <a href="/#resources">
-                        <NavText x="250" y="15" color={color} current={current === "resources"}>RESOURCES</NavText>
-                </a>
-                <a href="/#credits">
-                        <NavText x="300" y="50" color={color} current={current === "credits"}>
-                            CREDITS
-                        </NavText>
-                </a>
-                <path d="M331.568 31.726C331.568 31.726 329.44 21.8106 314.884 23.1894C300.328 24.5682 289.747 46.9712 270.767 44.8597C251.786 42.7483 241.58 22.5178 227.066 6.449C212.552 -9.61981 174.621 14.9677 174.621 14.9677" stroke={color} />
-                <circle r="4" transform="matrix(-1 0 0 1 332 34)" fill={color} />
-                <path d="M3.93457 17.5227C3.93457 17.5227 13.4797 35.1485 28.3185 39.5267C56.6614 47.8895 51.2209 5.58188 82.3115 6.57996C102.227 7.21929 105.78 17.5183 123.919 23.4779C147.722 31.2985 174.622 14.9591 174.622 14.9591" stroke={color} />
-                <circle r="4.5" transform="matrix(-1 0 0 1 4.5 16.5)" fill={color} />
-            </Swirly>
+            <Logo>
+                <a href="https://www.columbiaspectator.com/" style={{
+                }}><img style={{
+                    height: "40px",
+                    width: "40px",
+                }} src="https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LC75RL476NFG3P677LOBAW2MXE.png"></img></a>
+            </Logo>
+            <HamburgerMenu
+                isOpen={open}
+                menuClicked={() => handleClick()}
+                width={30}
+                height={20}
+                strokeWidth={5}
+                rotate={0}
+                color='white'
+                borderRadius={0}
+                animationDuration={0.5}
+                zIndex={100}
+                className="over"
+            />
+            <Menu isOpen={open} width={'100vw'}>
+                <Tab id="home"  current={current === "home"} className="menu-item" href="/">Home</Tab>
+                <Tab id="about"  current={current === "news"} className="menu-item" href="/news">News</Tab>
+                <Tab id="contact" current={current === "opinion"} className="menu-item" href="/opinion">Opinion</Tab>
+                <Tab current={current === "sports"} className="menu-item--small" href="/sports">Sports</Tab>
+                <Tab current={current === "a&e"} href="/a&e">A&E</Tab>
+                <Tab current={current === "eye"} href="/the-eye">The Eye</Tab>
+            </Menu>
         </NavWrap>
+
+
     );
 };
 
