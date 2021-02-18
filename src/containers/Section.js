@@ -138,7 +138,6 @@ const Section = ({ id, articles, header, color, next, link }) => {
                         <LineTo from="A" to="A" fromAnchor="20% bottom" toAnchor="80% bottom" delay={10} zIndex={1} borderColor="white" />
                         <LineTo from="B" to="B" fromAnchor="80% top" toAnchor="80% bottom" delay={10} zIndex={1} borderColor="white" />
                         <LineTo from="C" to="C" fromAnchor="80% top" toAnchor="80% 30%" delay={10} zIndex={1} borderColor="white" />
-
                         <LineTo from="C" to="C" fromAnchor="80% 30%" toAnchor="20% 30%" delay={10} zIndex={1} borderColor="white" />
                         {!mobile && (<LineTo from="C" to="C" fromAnchor="20% 30%" toAnchor="20% bottom" delay={10} zIndex={1} borderColor="white" />)}
                         {!mobile && (<LineTo from="C" to="D0" fromAnchor="20% bottom" toAnchor="40% 40%" delay={10} zIndex={1} borderColor="white" />)}

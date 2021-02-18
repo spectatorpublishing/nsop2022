@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import HamburgerMenu from 'react-hamburger-menu';
 import { fallDown as Menu } from 'react-burger-menu';
 import "../index.css";
+import { Link } from 'react-router-dom';
 
 const NavWrap = styled.div`
     text-align: center;
@@ -65,11 +66,11 @@ const MobileNavBar = ({ color, current }) => {
             />
             <Menu isOpen={open} width={'100vw'}>
                 <Tab id="home"  current={current === "home"} className="menu-item" href="/">Home</Tab>
-                <Tab id="about"  current={current === "news"} className="menu-item" href="/news">News</Tab>
-                <Tab id="contact" current={current === "opinion"} className="menu-item" href="/opinion">Opinion</Tab>
-                <Tab current={current === "sports"} className="menu-item--small" href="/sports">Sports</Tab>
-                <Tab current={current === "a&e"} href="/a&e">A&E</Tab>
-                <Tab current={current === "eye"} href="/the-eye">The Eye</Tab>
+                <Link style={{ textDecoration: 'none' }} to="/news"><Tab id="about"  current={current === "news"} className="menu-item" href="/news">News</Tab></Link>
+                <Link style={{ textDecoration: 'none' }} to="/opinion"><Tab id="contact" current={current === "opinion"} className="menu-item" href="/opinion">Opinion</Tab></Link>
+                <Link style={{ textDecoration: 'none' }} to="/sports"><Tab current={current === "sports"} className="menu-item--small" href="/sports">Sports</Tab></Link>
+                <Link style={{ textDecoration: 'none' }} to="/a&e"><Tab current={current === "a&e"} href="/a&e">A&E</Tab></Link>
+                <Link style={{ textDecoration: 'none' }} to="/the-eye"><Tab current={current === "eye"} href="/the-eye">The Eye</Tab></Link>
             </Menu>
         </NavWrap>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const VertNav = styled.div`
     text-align: right;
@@ -29,7 +30,7 @@ const Tab = styled.a`
     :hover {
         color: black;
         background-color:rgba(172, 186, 237, 1);
-        padding: 1vw 2vw 1vw 7vw;
+        padding: 1vw 2vw 1.5vw 7vw;
         height:  ${props => props.current ? '3vh' : 'auto'};
         width:  ${props => props.current ? '10vw' : 'auto'};
         div {
@@ -64,31 +65,31 @@ const NavBar = ({ current }) => {
             <Tab href="/" current={current === "home"}>
                 <NavText> HOME </NavText>
             </Tab>
-            <Tab href="/news" current={current === "news"}>
+            <Link style={{ textDecoration: 'none' }} to="/news"><Tab current={current === "news"}>
                 <NavText>
                     NEWS
                 </NavText>
-            </Tab>
-            <Tab href="/opinion" current={current === "opinion"}>
+            </Tab></Link>
+            <Link style={{ textDecoration: 'none' }} to="/opinion"><Tab current={current === "opinion"}>
                 <NavText >
                     Opinion
                 </NavText>
-            </Tab>
-            <Tab href="/sports" current={current === "sports"}>
-                <NavText >
+            </Tab></Link>
+            <Link style={{ textDecoration: 'none' }} to="/sports"><Tab current={current === "sports"}>
+                <NavText>
                     Sports
                 </NavText>
-            </Tab>
-            <Tab href="/a&e" current={current === "a&e"}>
+            </Tab></Link>
+            <Link style={{ textDecoration: 'none' }} to="/a&e"><Tab current={current === "a&e"}>
                 <NavText >
                     A&E
                 </NavText>
-            </Tab>
-            <Tab href="/the-eye" current={current === "eye"}>
+            </Tab></Link>
+            <Link style={{ textDecoration: 'none' }} to="/the-eye"><Tab urrent={current === "eye"}>
                 <NavText >
                     THE EYE
                 </NavText>
-            </Tab>
+            </Tab></Link>
         </VertNav >
     );
 };

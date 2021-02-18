@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const ArticleWrap = styled.div`
     display: flex;
     flex-direction: column;
-    width:37vw;
+    width:36vw;
     margin-left: ${props => props.right ? "0vw" : "4vw"};
     margin-right: ${props => props.right ? "4vw" : "0vw"};
     margin-top: 2vw;
