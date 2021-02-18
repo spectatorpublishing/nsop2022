@@ -9145,7 +9145,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.6.0", "prop-types@15.6.0":
+"prop-types@^15.6.0":
   "integrity" "sha1-zq8IMCL8RrSjX2nhPvda7Q1jmFY="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.6.0.tgz"
   "version" "15.6.0"
@@ -9370,6 +9370,16 @@
     "object-assign" "^4.1.1"
     "scheduler" "^0.20.1"
 
+"react-dom@16.2.0":
+  "integrity" "sha512-zpGAdwHVn9K0091d+hr+R0qrjoJ84cIBFL2uU60KvWBPfZ7LPSrfqviTxGHWN0sjPZb2hxWzMexwrvJdKePvjg=="
+  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.2.0.tgz"
+  "version" "16.2.0"
+  dependencies:
+    "fbjs" "^0.8.16"
+    "loose-envify" "^1.1.0"
+    "object-assign" "^4.1.1"
+    "prop-types" "^15.6.0"
+
 "react-error-overlay@^6.0.8":
   "integrity" "sha512-HvPuUQnLp5H7TouGq3kzBeioJmXms1wHy9EGjz2OURWBp4qZO6AfGEcnxts1D/CbwPLRAgTMPCEgYhA3sEM4vw=="
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.8.tgz"
@@ -9390,13 +9400,13 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.1.tgz"
   "version" "17.0.1"
 
-"react-lineto@^3.2.0":
-  "integrity" "sha512-soM9B/ikNpJ1UjdNjd/Z+wCrfhPzLDw0vqISS+WKd7llHvcq+X7difePPC5es9DRgjlmLdblSy0i4T3wvpzLMw=="
-  "resolved" "https://registry.npmjs.org/react-lineto/-/react-lineto-3.2.0.tgz"
-  "version" "3.2.0"
+"react-lineto@^3.0.0":
+  "integrity" "sha1-TDf72FihkZzLBjGOJv8qQY1Z9MM="
+  "resolved" "https://registry.npmjs.org/react-lineto/-/react-lineto-3.0.0.tgz"
+  "version" "3.0.0"
   dependencies:
-    "prop-types" "15.6.0"
     "react" "16.2.0"
+    "react-dom" "16.2.0"
 
 "react-refresh@^0.8.3":
   "integrity" "sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg=="
@@ -9507,15 +9517,7 @@
     "lodash.pick" "^4.4.0"
     "prop-types" "^15.7.2"
 
-"react@^17.0.1", "react@>=0.14.0 <18.0.0", "react@>=15.3.0", "react@>=16.0.0":
-  "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
-  "resolved" "https://registry.npmjs.org/react/-/react-17.0.1.tgz"
-  "version" "17.0.1"
-  dependencies:
-    "loose-envify" "^1.1.0"
-    "object-assign" "^4.1.1"
-
-"react@16.2.0":
+"react@^16.0.0", "react@16.2.0":
   "integrity" "sha512-ZmIomM7EE1DvPEnSFAHZn9Vs9zJl5A9H7el0EGTE6ZbW9FKe/14IYAlPbC8iH25YarEQxZL+E8VW7Mi7kfQrDQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.2.0.tgz"
   "version" "16.2.0"
@@ -9524,6 +9526,14 @@
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
     "prop-types" "^15.6.0"
+
+"react@^17.0.1", "react@>=0.14.0 <18.0.0", "react@>=15.3.0", "react@>=16.0.0":
+  "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
+  "resolved" "https://registry.npmjs.org/react/-/react-17.0.1.tgz"
+  "version" "17.0.1"
+  dependencies:
+    "loose-envify" "^1.1.0"
+    "object-assign" "^4.1.1"
 
 "read-pkg-up@^2.0.0":
   "integrity" "sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4="

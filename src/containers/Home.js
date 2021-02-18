@@ -20,10 +20,16 @@ const CoverWrapper = styled.div`
         width:100%;
         height:40vh;
         margin-top:25vw;
+        background-size:cover !important;
     }
 
     @media (max-width: 768px) {
         height:60vh;
+    }
+
+    @media (max-width: 1300px) {
+        background-size:contain;
+        background-repeat:no-repeat;
     }
 `;
 

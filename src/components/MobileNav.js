@@ -18,7 +18,7 @@ const NavWrap = styled.div`
     flex-wrap: wrap;
     z-index:100;
     background-color:#282439;
-    @media (min-width: 500px) {
+    @media (min-width: 768px) {
        display:none;
     }
 `;
