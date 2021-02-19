@@ -109,6 +109,7 @@ const LetterEditor = () => {
                         <h2>Design and Development</h2>
                         <p>Hong Sen Du, Head of Newsroom Development</p>
                         <p>Caroline Mao, Product Designer</p>
+                        <p>Ray Banke, Deputy Illustrations Editor</p>
                     </SubDiv>
 
                     <SubDiv>
@@ -131,7 +132,7 @@ const LetterEditor = () => {
                             <p>Maya Mitrasinovic</p>
                             <p>Faith Andrews</p>
                             <p>Irie Sentner</p>
-                            <p>Octavio Galaviz</p>
+                            <p>Stella Pagkas</p>
                         </div>
                         <div>
                             <h3>Arts and Entertainment</h3>
@@ -155,6 +156,16 @@ const LetterEditor = () => {
                             <p>Isai Soto</p>
                             <p>Natalie Tak</p>
 
+                        </div>
+                        <div>
+                            <h3>Video</h3>
+                            <p>Ryan Balderas, Deputy Video Editor</p>
+                            <p>Caitlin Buckley</p>
+                        </div>
+                        <div>
+                            <h3>Spec Audio</h3>
+                            <p>
+                                Samuel Hyman, Executive Editor of the Ear</p>
                         </div>
 
                     </SubDiv>
@@ -197,9 +208,11 @@ const LetterEditor = () => {
 
                         </div>
                         <div>
-                            <h3>Video</h3>
-                            <p>Ryan Balderas, Deputy Video Editor</p>
-                            <p>Caitlin Buckley</p>
+                            <h3>The Eye</h3>
+                            <p>Jade Justice, Features Editor</p>
+                            <p>Annie Cheng</p>
+                            <p>William Yee</p>
+                            <p>Kaiwen Zheng</p>
                         </div>
                     </SubDiv>
                     <SubDiv>
@@ -228,19 +241,17 @@ const LetterEditor = () => {
                             <p>Kathryn Cherven</p>
                             <p>Leif Wood</p>
                             <p>Renuka Balakrishnan</p>
+                            <p>Abby Sim</p>
+                            <p>Adam Burns</p>
+                            <p>Haley Zehrung</p>
+                            <p>Madison Guzy</p>
+                            <p>Natalie Goldberg</p>
+                            <p>Michaela Fleischer</p>
+                            <p> Noyna Roy</p>
+                            <p>Zoe Yin</p>
                         </div>
-                        <div>
-                            <h3>The Eye</h3>
-                            <p>Jade Justice, Features Editor</p>
-                            <p>Annie Chengg</p>
-                            <p>William Yee</p>
-                            <p>Kaiwen Zheng</p>
-                        </div>
-                        <div>
-                            <h3>Spec Audio</h3>
-                            <p>
-                                Samuel Hyman, Executive Editor of the Ear</p>
-                        </div>
+  
+                    
                     </SubDiv>
                 </Row>
 

@@ -3,12 +3,12 @@ export const news_articles = [
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KMG2HBNEKJGENICVS4EJFRY5Z4.gif",
         article_title: "After a year of national reckoning, Black students continue organizing for racial justice",
         article_authors: "Talia Abrahamson",
-        article_link: "https://www.columbiaspectator.com/news/2020/09/23/as-classrooms-confine-students-to-discussing-social-issues-in-theory-many-have-returned-home-to-enact-real-change/"
+        article_link: "https://www.columbiaspectator.com/news/2021/02/08/after-a-year-of-national-reckoning-black-students-continue-organizing-for-racial-justice/"
     },
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/34BUCNV5XZA3XPN4FE2NC3LQVY.jpg",
         article_title: "10 grantees named as recipients of the inaugural Racial Justice Mini-Grant",
-        article_authors: "Dia Gill",
+        article_authors: "Faith Onyechere",
         article_link: "https://www.columbiaspectator.com/news/2021/02/11/ten-grantees-named-as-recipients-of-the-inaugural-racial-justice-mini-grant/"
     },
     {
@@ -30,16 +30,16 @@ export const news_articles = [
         article_link: "https://www.columbiaspectator.com/news/2021/02/12/at-the-rko-hamilton-theater-development-and-historic-preservation-go-head-to-head/"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GLQQP4WSO5EF3CWJJNA7CMXSLY.JPG",
-        article_title: "Local businesses eagerly anticipate students’ return to campus while grappling with surge in COVID-19 cases",
-        article_authors: "Octavio Galaviz",
-        article_link: "https://www.columbiaspectator.com/photo-essay/2021/02/15/a-walk-through-west-harlem-a-look-at-often-overlooked-historic-sites/"
+        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2ODZSYLGORDNTJCLPFNGFRQUWI.jpg",
+        article_title: "LCite Black Barnard Faculty Cite-a-Thon calls for representation in the classroom",
+        article_authors: "Stella Pagkas",
+        article_link: "https://www.columbiaspectator.c  om/news/2021/02/19/cite-black-barnard-faculty-cite-a-thon-calls-for-representation-in-the-classroom/"
     },
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5TCUJECDBNAZRASTKDZHAE54IA.jpg",
         article_title: "A look at often overlooked historic sites",
         article_authors: "Sofia Kown",
-        article_link: "https://www.columbiaspectator.com/news/2020/11/11/columbia-canceled-housing-contracts-so-14000-students-moved-into-the-city-what-does-this-mean-for-the-local-housing-market/"
+        article_link: "https://www.columbiaspectator.com/photo-essay/2021/02/15/a-walk-through-west-harlem-a-look-at-often-overlooked-historic-sites/"
     },
     {
         image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TKLP3KNVDZB3JILSETAAOZH23U.jpg",

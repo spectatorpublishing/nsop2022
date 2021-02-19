@@ -92,6 +92,7 @@ const TextWrapMobile = styled.div`
 `;
 
 const PartOneText = styled.div`
+    text-transform:uppercase;
     @media (max-width: 500px) {
         left:0%;
         padding:2vw;
@@ -113,6 +114,7 @@ const PartOneText = styled.div`
 const PartTwoText = styled.div`
     margin-left:3vh;
     margin-top:2vh;
+    text-transform:uppercase;
     @media (max-width: 500px) {
         float:right;
         margin-top:0vh;

@@ -80,27 +80,27 @@ const MobileNavWrap = styled.div`
 const Section = ({ id, articles, header, color, next, link }) => {
     const [dimensions, setDimensions] = React.useState({
         height: window.innerHeight,
-        width: window.innerWidth,
+        width: window.innerWidth
     });
     const [isMobile, setMobile] = React.useState(false);
     const [lastIndex, setLastIndex] = React.useState(articles.length - 4);
     const [renderLines, setRenderLines] = React.useState(false);
 
-    console.log(dimensions.last_index)
     React.useEffect(() => {
         if (dimensions.width < 500)
             setMobile(true)
 
         setTimeout(function () { //Start the timer
             setRenderLines(true)
-        }, 500)
+        }, 100)
 
         function handleResize() {
             setDimensions({
                 height: window.innerHeight,
                 width: window.innerWidth
             })
-            if (dimensions.width < 500)
+            console.log(window.innerWidth)
+            if (window.innerWidth < 500)
                 setMobile(true)
             else
                 setMobile(false)
@@ -108,7 +108,7 @@ const Section = ({ id, articles, header, color, next, link }) => {
             setRenderLines(false)
             setTimeout(function () { //Start the timer
                 setRenderLines(true)
-            }, 500)
+            }, 100)
         }
 
         window.addEventListener('resize', handleResize)
