@@ -1,8 +1,8 @@
 {
-  "name": "bhm-issue",
+  "name": "nsop-2022",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bhm2021.columbiadailyspectator.com/",
+  "homepage": "https://nsop2022.columbiaspectator.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
