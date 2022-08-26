@@ -1,5 +1,7 @@
 # NSOP 2022 Edition
 
+http://nsop2022.columbiaspectator.com/
+
 ### To Deploy
 1) Clone the repo `git clone git@github.com:spectatorpublishing/nsop2022.git`
 2) Make sure you have the latest changes: `git pull origin master`
