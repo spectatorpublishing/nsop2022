@@ -50,6 +50,9 @@ const Credits = styled.div`
     margin-right:auto;
     padding-top:2vh;
     padding-bottom:2vh;
+    @media (max-width: 768px) {
+        font-size: 1.25em;
+    }
 `;
 const Body = styled.div`
     display:flex;
@@ -92,10 +95,6 @@ const Row = styled.div`
 
     }
 `;
-
-const Content = styled.div`
-    text-align:center;
-`
 
 
 
