@@ -121,12 +121,6 @@ const LetterEditor = () => {
                             ))}
                         </Section>
                         <Section>
-                            <h3>City News</h3>
-                            {credits['City News'].map(person => (
-                                <p>{person.staff_name}, {person.title}</p>
-                            ))}
-                        </Section>
-                        <Section>
                             <h3>Arts and Entertainment</h3>
                             {credits['Arts and Entertainment'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
@@ -140,11 +134,7 @@ const LetterEditor = () => {
                             ))}
 
                         </Section>
-                        
-                        
-
                     </SubDiv>
-                    
                     <SubDiv>
                     <Section>
                             <h3>Design and Development</h3>
@@ -158,7 +148,6 @@ const LetterEditor = () => {
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
                         </Section>
-                        
                         <Section>
                             <h3>Graphics</h3>
                             {credits['Graphics'].map(person => (
@@ -172,17 +161,11 @@ const LetterEditor = () => {
                             ))}
 
                         </Section>
-                        <Section>
-                            <h3>Video</h3>
-                            {credits['City News'].map(person => (
-                                <p>{person.staff_name}, {person.title}</p>
-                            ))}
-                        </Section>
                     </SubDiv>
                     <SubDiv>
                     <Section>
                             <h3>Lead Illustration By</h3>
-                            <p>Ray Banke, Deputy Illustrations Editor</p>
+                            <p>Ji Yoon Sim, Senior Staff Illustrator</p>
                         </Section>
                         <Section>
                             <h3>Copy</h3>
@@ -191,8 +174,8 @@ const LetterEditor = () => {
                             ))}
                         </Section>
                         <Section>
-                            <h3>The Eye</h3>
-                            {credits['The Eye'].map(person => (
+                            <h3>Spectrum</h3>
+                            {credits['Spectrum'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
                         </Section>
