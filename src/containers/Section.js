@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import LineTo from 'react-lineto';
 
 import { device } from '../device';
 import "../index.css";
@@ -28,11 +27,12 @@ const Wrapper2 = styled.div`
 `;
 
 const Header = styled.h1`
-    font-size: 2rem;
+    font-family: 'Fraunces';
+    font-weight:900;
+    font-size: 2.5rem;
     letter-spacing: .05rem;
     z-index:4;
-    color:rgba(0, 0, 0, 0);
-    -webkit-text-stroke: 1px white;
+    color:#F4F8D3;
     position:absolute;
     top:10vh;
     left:5vh;

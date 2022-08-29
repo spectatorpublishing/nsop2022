@@ -5,7 +5,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(18, 16, 39, 0.91);
+  background-color: #222066;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -66,8 +66,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #282439;
+  background: #222066;
   padding: 0;
+  font-family: 'Fraunces';
   font-size: 1.15em;
   height: auto !important;
   top: 9vh;
@@ -75,7 +76,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-  fill: #282439;
+  fill: #222066;
 }
 
 /* Wrapper for item list */
@@ -95,9 +96,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   text-transform: uppercase;
   font-style:normal;
 }
-
-
-
 /* Styling of overlay */
 .bm-overlay {
   background: none !important;
