@@ -64,8 +64,8 @@ const MobileNavBar = ({ current }) => {
             />
             <Menu isOpen={open} width={'100vw'}>
                 <Tab current={current === "home"} href="/">Home</Tab>
-                <Tab current={current === "uni-news"} href="/uni-news">Uni News</Tab>
-                <Tab current={current === "city-news"} href="/city-news">City News</Tab>
+                <Tab current={current === "uni-news"} href="/uni-news">University News</Tab>
+                <Tab current={current === "spectrum"} href="/spectrum">Spectrum</Tab>
                 <Tab current={current === "opinion"} href="/opinion">Opinion</Tab>
                 <Tab current={current === "sports"} href="/sports">Sports</Tab>
                 <Tab current={current === "a&e"} href="/a&e">A&E</Tab>

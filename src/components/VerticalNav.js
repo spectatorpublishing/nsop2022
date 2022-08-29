@@ -19,7 +19,8 @@ const Tab = styled.a`
     color: ${props => props.current ? '#1F3B83' : 'white'};
     background-color: ${props => props.current ? '#F4F8D3' : 'none'};
     padding:  ${props => props.current ? '1vw 2vw 1.5vw 2vw' : 'auto'};
-    height:  ${props => props.current ? '1.5rem' : 'auto'};
+    // height:  ${props => props.current ? '1.5rem' : 'auto'};
+
     width:  ${props => props.current ? '10rem' : 'auto'};
     text-decoration:none;
     div {
@@ -31,8 +32,8 @@ const Tab = styled.a`
         color: #1F3B83;
         background-color:#F4F8D3;
         padding: 1vw 2vw 1.5vw 2vw;
-        height:  ${props => props.current ? '1.5rem' : 'auto'};
-        width:  ${props => props.current ? '10rem' : 'auto'};
+        // height:  ${props => props.current ? '1.5rem' : 'auto'};
+        width:  ${props => props.current ? '10rem' : '10rem'};
         div {
             width: 100%;
             font-size: 1.5em;
@@ -70,12 +71,12 @@ const NavBar = ({ current }) => {
             </Tab>
             <Link style={{ textDecoration: 'none' }} to="/uni-news"><Tab current={current === "uni-news"}>
                 <NavText>
-                    UNI NEWS
+                    UNIVERSITY NEWS
                 </NavText>
             </Tab></Link>
-            <Link style={{ textDecoration: 'none' }} to="/city-news"><Tab current={current === "city-news"}>
+            <Link style={{ textDecoration: 'none' }} to="/spectrum"><Tab current={current === "spectrum"}>
                 <NavText>
-                    CITY NEWS
+                    SPECTRUM
                 </NavText>
             </Tab></Link>
             <Link style={{ textDecoration: 'none' }} to="/opinion"><Tab current={current === "opinion"}>
