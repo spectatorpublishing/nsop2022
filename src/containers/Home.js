@@ -9,10 +9,16 @@ import NavigationSec from '../components/Navigation'
 import VerticalNav from '../components/VerticalNav';
 import MobileNav from '../components/MobileNav';
 
+const TitleWrapper = styled.div`
+    z-index:1;
+`
 const CoverWrapper = styled.div`
-    background: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UQ4JFQMSONFXJHSBKTCU64BQGQ.png);
+    background-image: url("https://nsop2022.s3.amazonaws.com/AIDTE6P5SRC55G5C4SPM7GUV54.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:0;
+    margin-top:-10vw;
     width:100%;
     height:110vh;
 
@@ -47,7 +53,7 @@ const Wrapper = styled.div`
 
 const NavWrap = styled.div`
     display: none;
-
+    z-index:2;
     @media ${device.tablet} {
         display: inherit;
         margin-top: 0;
@@ -59,9 +65,7 @@ const TextWrap = styled.div`
     position:relative;
     top:5%;
     font-weight:bold;
-    left:3%;
-    color:rgba(172, 186, 237, 1);
-    font-style: italic;
+    color:#F4F8D3;
     @media (max-width: 501px) {
         display:none;
     }
@@ -73,17 +77,19 @@ const TextWrap = styled.div`
 const TextWrapMobile = styled.div`    
     font-size: 2.5em;
     position:relative;
-    color:white;
-    font-style:italic;
     height:auto;
     font-weight:900;
     letter-spacing:1px;
+    margin-bottom:-2.5em;
     div {
+        font-family: Fraunces;
         position: relative;
+        font-family: Fraunces;
+        width:80%;
         display: inline-block;
-        padding: 0.5em 0.5em 0.5em 0.25em;
+        padding: 0.5em 0.5em 0.5em 1em;
         overflow: hidden;
-        color: #fff;
+        color:#F4F8D3;
     }
     
     @media (min-width: 500px) {
@@ -93,17 +99,20 @@ const TextWrapMobile = styled.div`
 
 const PartOneText = styled.div`
     text-transform:uppercase;
+    font-family: Fraunces;
+    text-shadow: 1px 1px #222066;
     @media (max-width: 500px) {
         left:0%;
         padding:2vw;
         :after {
             content: '';
             position: absolute;
+            margin-top:1em;
             top: 0;
             left: 0;
-            width: 100%;
-            height: 100%;
-            background-color:#0102C1;
+            width: 85%;
+            height: 40%;
+            background-color:#2B224D;
             transform-origin: 100% 0;
             transform: skew(-10deg);
             z-index: -1;
@@ -112,11 +121,11 @@ const PartOneText = styled.div`
 `;
 
 const PartTwoText = styled.div`
-    margin-left:3vh;
     margin-top:2vh;
     text-transform:uppercase;
-    @media (max-width: 500px) {
-        float:right;
+    font-family: Fraunces;
+    text-shadow: 2px 2px #222066;
+    @media (max-width: 500px) {    
         margin-top:0vh;
         padding:2vw;
         :after {
@@ -126,7 +135,6 @@ const PartTwoText = styled.div`
             left: 0;
             width: 100%;
             height: 100%;
-            background-color:#0102C1;
             transform-origin: 0% 100%;
             transform: skew(-10deg);
             z-index: -1;
@@ -140,21 +148,22 @@ const Home = () => {
 
             <MobileNav current="home" />
             <TextWrapMobile>
-                <PartOneText>black history</PartOneText>
-                <PartTwoText>month edition</PartTwoText>
+                <PartOneText>nsop 2022 special edition</PartOneText>
             </TextWrapMobile>
+            <TitleWrapper>
+                    <TextWrap>
+                        <PartOneText>nsop 2022</PartOneText>
+                        <PartTwoText>special edition</PartTwoText>
+                    </TextWrap>
+            </TitleWrapper>
             <CoverWrapper id="home">
-                <TextWrap>
-                    <PartOneText>black history</PartOneText>
-                    <PartTwoText>month edition</PartTwoText>
-                </TextWrap>
                 <NavWrap>
                     <VerticalNav color="white" current="home" />
                 </NavWrap>
             </CoverWrapper>
 
             <LetterSec />
-            <NavigationSec first={true} next="news" link="/news" />
+            <NavigationSec first={true} next="university news" link="/uni-news" />
             <CreditsSec />
         </Wrapper>
 

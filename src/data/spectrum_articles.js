@@ -1,4 +1,4 @@
-export const eye_articles = [
+export const spectrum_articles = [
     {
         image_url: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WEJPCGA2DJCN3NH2EHFGN7RBHE.jpg",
         article_title: "Len Elmore: Accidental Athlete, Quiet Activist",
