@@ -154,7 +154,7 @@ const Home = () => {
             </CoverWrapper>
 
             <LetterSec />
-            <NavigationSec first={true} next="uni news" link="/uni-news" />
+            <NavigationSec first={true} next="university news" link="/uni-news" />
             <CreditsSec />
         </Wrapper>
 

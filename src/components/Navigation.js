@@ -27,7 +27,7 @@ const Title = styled.div`
 
 const TextWrap = styled.a`
     border: solid 1px white;
-    width:40%;
+    width:50%;
     margin:auto;
     font-family: 'Fraunces';
     text-transform:uppercase;
