@@ -13,9 +13,10 @@ const TitleWrapper = styled.div`
     z-index:1;
 `
 const CoverWrapper = styled.div`
-    background-color:#453F5A;
+    background-image: url("https://nsop2022.s3.amazonaws.com/AIDTE6P5SRC55G5C4SPM7GUV54.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index:0;
     margin-top:-10vw;
     width:100%;
@@ -99,6 +100,7 @@ const TextWrapMobile = styled.div`
 const PartOneText = styled.div`
     text-transform:uppercase;
     font-family: Fraunces;
+    text-shadow: 1px 1px #222066;
     @media (max-width: 500px) {
         left:0%;
         padding:2vw;
@@ -122,6 +124,7 @@ const PartTwoText = styled.div`
     margin-top:2vh;
     text-transform:uppercase;
     font-family: Fraunces;
+    text-shadow: 2px 2px #222066;
     @media (max-width: 500px) {    
         margin-top:0vh;
         padding:2vw;
@@ -145,12 +148,12 @@ const Home = () => {
 
             <MobileNav current="home" />
             <TextWrapMobile>
-                <PartOneText>nsop special edition</PartOneText>
+                <PartOneText>nsop 2022 special edition</PartOneText>
             </TextWrapMobile>
             <TitleWrapper>
                     <TextWrap>
-                        <PartOneText>nsop special</PartOneText>
-                        <PartTwoText>edition</PartTwoText>
+                        <PartOneText>nsop 2022</PartOneText>
+                        <PartTwoText>special edition</PartTwoText>
                     </TextWrap>
             </TitleWrapper>
             <CoverWrapper id="home">
