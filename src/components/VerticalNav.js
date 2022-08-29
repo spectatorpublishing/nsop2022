@@ -16,11 +16,12 @@ const Tab = styled.a`
     margin-bottom: 5vh;
     position:relative;
     text-align:right;
-    color: ${props => props.current ? 'black' : 'white'};
-    background-color: ${props => props.current ? 'rgba(172, 186, 237, 1)' : 'none'};
-    padding:  ${props => props.current ? '1vw 2vw 1.5vw 7vw' : 'auto'};
-    height:  ${props => props.current ? '3vh' : 'auto'};
-    width:  ${props => props.current ? '10vw' : 'auto'};
+    color: ${props => props.current ? '#1F3B83' : 'white'};
+    background-color: ${props => props.current ? '#F4F8D3' : 'none'};
+    padding:  ${props => props.current ? '1vw 2vw 1.5vw 2vw' : 'auto'};
+    // height:  ${props => props.current ? '1.5rem' : 'auto'};
+
+    width:  ${props => props.current ? '10rem' : 'auto'};
     text-decoration:none;
     div {
         width: ${props => props.current ? '100%' : 'auto'};
@@ -28,11 +29,11 @@ const Tab = styled.a`
     }
 
     :hover {
-        color: black;
-        background-color:rgba(172, 186, 237, 1);
-        padding: 1vw 2vw 1.5vw 7vw;
-        height:  ${props => props.current ? '3vh' : 'auto'};
-        width:  ${props => props.current ? '10vw' : 'auto'};
+        color: #1F3B83;
+        background-color:#F4F8D3;
+        padding: 1vw 2vw 1.5vw 2vw;
+        // height:  ${props => props.current ? '1.5rem' : 'auto'};
+        width:  ${props => props.current ? '10rem' : '10rem'};
         div {
             width: 100%;
             font-size: 1.5em;
@@ -40,7 +41,10 @@ const Tab = styled.a`
     }
 
 `;
+
 const NavText = styled.div`
+    font-family: 'Fraunces';
+    font-weight:700;
     letter-spacing: .1rem;
     text-transform: uppercase;
     position:relative;
@@ -65,9 +69,14 @@ const NavBar = ({ current }) => {
             <Tab href="/" current={current === "home"}>
                 <NavText> HOME </NavText>
             </Tab>
-            <Link style={{ textDecoration: 'none' }} to="/news"><Tab current={current === "news"}>
+            <Link style={{ textDecoration: 'none' }} to="/uni-news"><Tab current={current === "uni-news"}>
                 <NavText>
-                    NEWS
+                    UNIVERSITY NEWS
+                </NavText>
+            </Tab></Link>
+            <Link style={{ textDecoration: 'none' }} to="/spectrum"><Tab current={current === "spectrum"}>
+                <NavText>
+                    SPECTRUM
                 </NavText>
             </Tab></Link>
             <Link style={{ textDecoration: 'none' }} to="/opinion"><Tab current={current === "opinion"}>
@@ -83,11 +92,6 @@ const NavBar = ({ current }) => {
             <Link style={{ textDecoration: 'none' }} to="/a&e"><Tab current={current === "a&e"}>
                 <NavText >
                     A&E
-                </NavText>
-            </Tab></Link>
-            <Link style={{ textDecoration: 'none' }} to="/the-eye"><Tab urrent={current === "eye"}>
-                <NavText >
-                    THE EYE
                 </NavText>
             </Tab></Link>
         </VertNav >
