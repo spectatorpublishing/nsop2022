@@ -38,7 +38,7 @@ const ArticleImg = styled.img`
 `;
 
 const ImageWrap = styled.div`
-    background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
+    background: linear-gradient(rgba(43, 34, 77, 0.4), rgba(43, 34, 77, 0.4));
     width: inherit;
     height:100%;
     z-index:2;
@@ -52,7 +52,7 @@ const ImageWrap = styled.div`
         transition-duration:1s;
         z-index:5;
         opacity:1;
-        background: linear-gradient(rgba(1, 2, 193, 0.29),rgba(1, 2, 193, 0.29));
+        background: linear-gradient(rgba(43, 34, 77, 0.4),rgba(43, 34, 77, 0.4));
     }
     :hover::after {
         transition-duration:1s;
