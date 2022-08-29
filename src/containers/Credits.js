@@ -18,11 +18,12 @@ const LetterWrap = styled.div`
 const Title = styled.div`
     font-style: normal;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 2.5em;
+    font-family: Fraunces;
     text-align:center;
     letter-spacing: 0.05em;
     color:white;
-    width:65%;
+    width:80%;
     margin-left:auto;
     margin-right:auto;
     
@@ -40,6 +41,7 @@ const Title = styled.div`
 const Credits = styled.div`
     font-style: normal;
     font-weight: 900;
+    font-family: Fraunces;
     font-size: 2em;
     color:white;
     text-align:center;
@@ -48,30 +50,36 @@ const Credits = styled.div`
     margin-right:auto;
     padding-top:2vh;
     padding-bottom:2vh;
-    
+    @media (max-width: 768px) {
+        font-size: 1.25em;
+    }
 `;
 const Body = styled.div`
-    h1 {
-        text-align:center;
-        color:white;
-    }
+    display:flex;
+    justify-content: center;
 `;
 
 
 const SubDiv = styled.div`
     width: 75vw;
+    padding-left: 1em;
+    font-family: Poppins;
     @media ${device.tablet} {
         width: fit-content;
     }
+    
     color:white;
 `;
 
-
+const Section = styled.div`
+    padding-bottom:1em;
+`;
 const Row = styled.div`
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    justify-content: center;
+    
+    
     @media ${device.tablet} {
         justify-content: space-evenly;
     }
@@ -81,14 +89,12 @@ const Row = styled.div`
 
     }
     @media (max-width: 768px) {
+        margin-left:1.25em;
         font-size:1em !important;
+        text-align: center;
 
     }
 `;
-
-const Content = styled.div`
-    text-align:center;
-`
 
 
 
@@ -99,110 +105,91 @@ const LetterEditor = () => {
             <Credits> CREDITS </Credits>
             <Body>
                 <Row>
+                
+                
                     <SubDiv>
-                        <h2>Corporate Board</h2>
-                        {credits['Corporate Board'].map(person => (
-                            <p>{person.staff_name}, {person.title}</p>
-                        ))}
-                    </SubDiv>
-
-                    <SubDiv>
-                        <h2>Design and Development</h2>
-                        {credits['Design and Development'].map(person => (
+                    <Section>
+                            <h3>Corporate Board</h3>
+                            {credits['Corporate Board'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
-                    </SubDiv>
-
-                    <SubDiv>
-                        <h2>Lead Illustration By</h2>
-                        <p>Ray Banke, Deputy Illustrations Editor</p>
-                    </SubDiv>
-                </Row>
-                <h1>Content</h1>
-                <Row>
-                    <SubDiv>
-                        <div>
+                        </Section>
+                        <Section>
                             <h3>University News</h3>
                             {credits['University News'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
-                        </div>
-                        <div>
-                            <h3>City News</h3>
-                            {credits['City News'].map(person => (
-                                <p>{person.staff_name}, {person.title}</p>
-                            ))}
-                        </div>
-                        <div>
+                        </Section>
+                        <Section>
                             <h3>Arts and Entertainment</h3>
                             {credits['Arts and Entertainment'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
 
-                        </div>
-                        <div>
+                        </Section>
+                        <Section>
                             <h3>Illustrations</h3>
                             {credits['Illustrations'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
 
-                        </div>
-                        <div>
-                            <h3>Video</h3>
-                            {credits['City News'].map(person => (
-                                <p>{person.staff_name}, {person.title}</p>
-                            ))}
-                        </div>
-                        <div>
-                            <h3>Spec Audio</h3>
-                            {credits['City News'].map(person => (
-                                <p>{person.staff_name}, {person.title}</p>
-                            ))}
-                        </div>
-
+                        </Section>
                     </SubDiv>
                     <SubDiv>
-                        <div>
+                    <Section>
+                            <h3>Design and Development</h3>
+                            {credits['Design and Development'].map(person => (
+                                    <p>{person.staff_name}, {person.title}</p>
+                                ))}
+                        </Section>
+                        <Section>
                             <h3>Opinion</h3>
                             {credits['Opinion'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
-                        </div>
-                        <div>
-                            <h3>Sports</h3>
-                            {credits['Sports'].map(person => (
-                                <p>{person.staff_name}, {person.title}</p>
-                            ))}
-                        </div>
-                        <div>
+                        </Section>
+                        <Section>
                             <h3>Graphics</h3>
                             {credits['Graphics'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
-                        </div>
-                        <div>
+                        </Section>
+                        <Section>
                             <h3>Photo</h3>
                             {credits['Photo'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
 
-                        </div>
-                        <div>
-                            <h3>The Eye</h3>
-                            {credits['The Eye'].map(person => (
-                                <p>{person.staff_name}, {person.title}</p>
-                            ))}
-                        </div>
+                        </Section>
                     </SubDiv>
                     <SubDiv>
-                        <div>
+                    <Section>
+                            <h3>Lead Illustration By</h3>
+                            <p>Ji Yoon Sim, Senior Staff Illustrator</p>
+                        </Section>
+                        <Section>
                             <h3>Copy</h3>
                             {credits['Copy'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
                             ))}
-                        </div>
+                        </Section>
+                        <Section>
+                            <h3>Spectrum</h3>
+                            {credits['Spectrum'].map(person => (
+                                <p>{person.staff_name}, {person.title}</p>
+                            ))}
+                        </Section>
+                        <Section>
+                            <h3>Sports</h3>
+                            {credits['Sports'].map(person => (
+                                <p>{person.staff_name}, {person.title}</p>
+                            ))}
+                        </Section>
                     </SubDiv>
+                    
                 </Row>
+                
+                
 
             </Body>
         </LetterWrap>

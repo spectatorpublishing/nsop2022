@@ -4,34 +4,6 @@ export const credits = {
             { staff_name: "Dia Gill", title: "Managing Editor" },
             { staff_name: "Vilanna Wang", title: "Publisher" }
     ],
-    "SSFP": [
-            {
-                "staff_name": "Irie Sentner",
-                "title": "SSFP Director"
-            },
-            {
-                "staff_name": "Derek Ng",
-                "title": "SSFP Director"
-            },
-            {"staff_name": "",
-            "title": ""},
-            {
-                "staff_name": "Faith Andrews",
-                "title": "SSFP Board"
-            },
-            {
-                "staff_name": "Natalie Goldberg",
-                "title": "SSFP Board"
-            },
-            {
-                "staff_name": "Senem Yurdakul",
-                "title": "SSFP Board"
-            },
-            {
-                "staff_name": "Yingjie Wang",
-                "title": "SSFP Board"
-            }
-        ],
     "Design and Development": [
         {
           "staff_name": "Laura Castro Venegas",
@@ -112,7 +84,7 @@ export const credits = {
           "title": "Fellow"
         }
       ],
-    "City News": [
+    "Spectrum": [
         {
           "staff_name": "Faith Andrews O'Neale",
           "title": "City News Editor"
@@ -225,80 +197,6 @@ export const credits = {
         },
         {
           "staff_name": "Remi Seamon",
-          "title": "Fellow"
-        }
-      ],
-    "The Eye": [
-        {
-          "staff_name": "Derek Ng",
-          "title": "Managing Editor"
-        },
-        {
-          "staff_name": "Annie Cheng",
-          "title": "Managing Editor"
-        },
-        {
-          "staff_name": "Megan Lunny",
-          "title": "Lead Story Editor"
-        },
-        {
-          "staff_name": "Lilienne Shore Kilgore-Brown",
-          "title": "Features Editor"
-        },
-        {
-          "staff_name": "Isabella Aldrete",
-          "title": "View From Here Editor"
-        },
-        {
-          "staff_name": "Mayra Kalaora",
-          "title": "Deputy Editor"
-        },
-        {
-          "staff_name": "Mason Cannon",
-          "title": "Deputy Editor"
-        },
-        {
-          "staff_name": "Caelan Bailey",
-          "title": "Deputy Editor"
-        },
-        {
-          "staff_name": "Isabella Noonen",
-          "title": "Deputy Editor"
-        },
-        {
-          "staff_name": "Julianna Lozada",
-          "title": "Fellow"
-        },
-        {
-          "staff_name": "Roni Gal-Oz",
-          "title": "Fellow"
-        },
-        {
-          "staff_name": "William Park",
-          "title": "Fellow"
-        },
-        {
-          "staff_name": "Linda Qu",
-          "title": "Fellow"
-        },
-        {
-          "staff_name": "Joyce Zhang",
-          "title": "Fellow"
-        },
-        {
-          "staff_name": "Olya Sukonrat",
-          "title": "Fellow"
-        },
-        {
-          "staff_name": "Kiana Mottahedan",
-          "title": "Fellow"
-        },
-        {
-          "staff_name": "Matthieu Le",
-          "title": "Fellow"
-        },
-        {
-          "staff_name": "Manan Vij",
           "title": "Fellow"
         }
       ],
