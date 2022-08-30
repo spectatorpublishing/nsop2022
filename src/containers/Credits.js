@@ -149,12 +149,6 @@ const LetterEditor = () => {
                             ))}
                         </Section>
                         <Section>
-                            <h3>Graphics</h3>
-                            {credits['Graphics'].map(person => (
-                                <p>{person.staff_name}, {person.title}</p>
-                            ))}
-                        </Section>
-                        <Section>
                             <h3>Photo</h3>
                             {credits['Photo'].map(person => (
                                 <p>{person.staff_name}, {person.title}</p>
@@ -165,7 +159,7 @@ const LetterEditor = () => {
                     <SubDiv>
                     <Section>
                             <h3>Lead Illustration By</h3>
-                            <p>Ji Yoon Sim, Senior Staff Illustrator</p>
+                            <p>Ji Yoon Sim, Deputy Illustrations Editor</p>
                         </Section>
                         <Section>
                             <h3>Copy</h3>
