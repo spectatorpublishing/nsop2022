@@ -65,6 +65,7 @@ const TextWrap = styled.div`
     top:5%;
     font-weight:bold;
     color:#F4F8D3;
+    margin-left: 1rem;
     @media (max-width: 501px) {
         display:none;
     }
