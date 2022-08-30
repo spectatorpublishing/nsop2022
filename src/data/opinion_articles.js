@@ -1,20 +1,20 @@
 export const opinion_articles = [
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FL7AVFP2VRBULJA5W4GZZEBDBQ.jpg",
-        article_title: "Disconnected: vaccine rollout and Black realities of COVID-19",
-        article_authors: "Dorcas Adedoja",
-        article_link: "https://www.columbiaspectator.com/opinion/2021/02/10/disconnected-vaccine-rollout-and-black-realities-of-covid-19/"
+      "article_link": "https://www.columbiaspectator.com/opinion/2022/08/28/date-six-playing-with-balls/",
+      "article_title": "Date Six: Playing with Balls",
+      "article_authors": "Tristan Espinoza",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FJYEMV6HFVHHJLOSZAABIX4MKY.jpg"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QKB6JKTTY5GGHMSXMHHANNBHFY.jpg",
-        article_title: "You perpetuate systemic oppression through your elite standards and unrealistic expectations",
-        article_authors: "Pastor Isaac Scott",
-        article_link: "https://www.columbiaspectator.com/opinion/2021/02/16/you-perpetuate-systemic-oppression-through-your-elite-standards-and-unrealistic-expectations/"
+      "article_link": "https://www.columbiaspectator.com/opinion/2022/08/27/advice-from-the-editor-making-columbia-your-own/",
+      "article_title": "Advice from the Editor: Making Columbia your own",
+      "article_authors": "Senem Yurdakul",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OYFK6O333BCONAL3XCUQ2CAAJ4.jpg"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XJHKSYK7PVCZPECAHXRPZ45SH4.png",
-        article_title: "From the hood to Hamilton Hall",
-        article_authors: "Kwolanne Dina Felix",
-        article_link: "https://www.columbiaspectator.com/opinion/2021/02/16/from-the-hood-to-hamilton-hall/"
-    },
-];
+      "article_link": "https://www.columbiaspectator.com/opinion/2022/08/27/what-i-learned-as-a-black-first-year-at-columbia/",
+      "article_title": "What I learned as a Black first-year at Columbia",
+      "article_authors": "Colin Roedl",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6FN7Q5MXKRDRPLZXVL4JGFNVRU.jpg"
+    }
+  ];

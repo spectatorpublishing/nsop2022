@@ -1,26 +1,50 @@
 export const spectrum_articles = [
     {
-        image_url: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WEJPCGA2DJCN3NH2EHFGN7RBHE.jpg",
-        article_title: "Len Elmore: Accidental Athlete, Quiet Activist",
-        article_authors: "William Yee",
-        article_link: "https://www.columbiaspectator.com/the-eye/2019/10/29/len-elmore-accidental-athlete-quiet-activist/"
+      "article_link": "https://www.columbiaspectator.com/spectrum/2020/08/27/places-around-mohi-to-buy-room-necessities/",
+      "article_title": "Places around MoHi to buy room necessities",
+      "article_authors": "Ariana Novo",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QQASN3LY7FCJFMT2AZEEUHCB3Y.JPG"
     },
     {
-        image_url: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/67IN7EWHGZEJTN3UU6HXBESIPE.png",
-        article_title: "PWI or HBCU? In Columbia and Barnard’s Only Domestic Exchange Programs, Students Experience Both.",
-        article_authors: "Jade Justice",
-        article_link: "https://www.columbiaspectator.com/the-eye/2019/10/25/pwi-or-hbcu-in-columbia-and-barnards-only-domestic-exchange-programs-students-experience-both/"
+      "article_link": "https://www.columbiaspectator.com/spectrum/2022/01/31/where-can-you-use-meal-plan-points-dining-dollars-and-flex/",
+      "article_title": "Where can you use Meal Plan Points, Dining Dollars, and Flex?",
+      "article_authors": "Ruby Zeidman",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6EO23DIJOVHBHBOFZ7A5O6K2MQ.jpg"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FEJE4QQPRFCF3M4DWTRWJLFTTE.gif",
-        article_title: "Ignored, Erased, Unheard: The Doctor Behind the Name Change of Bard Hall",
-        article_authors: "Annie Cheng and Kaiwen Zhang",
-        article_link: "https://www.columbiaspectator.com/the-eye/2020/12/15/ignored-erased-unheard-the-doctor-behind-the-name-change-of-bard-hall/"
+      "article_link": "https://www.columbiaspectator.com/spectrum/2020/11/09/budgeting-tips-and-student-deals-around-columbias-campus/",
+      "article_title": "Budgeting tips and student deals around Columbia’s campus",
+      "article_authors": "Haleigh Stewart and Maya Sulkin",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HZLRB23PZBCDRCUNIORABUDWP4.jpg"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TQN2SBFCWZDELD57RSZAFE5TYA.jpeg",
-        article_title: "Jazz: Universal Language or Community Divider?",
-        article_authors: "Noah Sheidlower and Sam Hyman",
-        article_link: "https://www.columbiaspectator.com/the-eye/2021/02/16/jazz-universal-language-or-community-divider/"
+      "article_link": "https://www.columbiaspectator.com/spectrum/2021/11/15/how-to-plan-your-classes-when-you-havent-decided-on-a-major-yet/",
+      "article_title": "How to plan your classes when you haven’t decided on a major yet",
+      "article_authors": "Caroline Somers",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YHFLSOUE55HDFGWJ6NPGRGF2LU.jpeg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/spectrum/2020/11/30/registration-101-from-tips-on-choosing-your-classes-to-making-a-4-year-plan/",
+      "article_title": "Registration 101: From tips on choosing your classes to making a four-year plan",
+      "article_authors": "Swethaa Suresh and Nirutti Charupaisankit",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/D26VXPRCGFHOFCYWPWKKZ5LX4E.jpeg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/spectrum/2022/04/04/an-unofficial-guide-to-columbias-campus-bars/",
+      "article_title": "An unofficial guide to Columbia’s campus bars",
+      "article_authors": "Kylie Gall",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V2IEGWXJEFALPFVMQDLKVP65U4.jpg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/spectrum/2021/09/26/how-to-manage-the-three-ss-school-sleep-and-a-social-life/",
+      "article_title": "How to manage the three S’s: school, sleep, and a social life",
+      "article_authors": "Swethaa Suresh",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AC5XKWRQ45FRXGOIKAANLKXTFE.jpeg"
+    },
+    {
+      "article_link": "https://www.columbiaspectator.com/spectrum/2022/04/20/first-year-dorm-essentials-you-didnt-know-you-needed/",
+      "article_title": "First-year dorm essentials you didn’t know you needed",
+      "article_authors": "Madeline Suindah",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JHPAJ2CDPZFDVAA5DXWAP5LBEM.jpg"
     }
-];
+  ];

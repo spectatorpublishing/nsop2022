@@ -1,32 +1,20 @@
 export const sports_articles = [
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MKIV52ONRBGVPJ2YSHPB5FDTTU.jpg",
-        article_title: "Bold and Brazen: Celebrating art and mental health as a Black student-athlete ",
-        article_authors: "Clara Ence Morse",
-        article_link: "https://www.columbiaspectator.com/sports/2021/02/15/bold-and-brazen-celebrating-art-and-mental-health-as-a-black-student-athlete/"
+      "article_link": "https://www.columbiaspectator.com/sports/2022/08/25/the-columbia-club-sports-that-will-get-you-off-your-feet/",
+      "article_title": "The Columbia club sports that will get you on your feet",
+      "article_authors": "Rebecca Wachen",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LVVX62EHENGRFILCLL5ZHEREHI.jpg"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DMINE5MGIJGLHLZO6MQIYQI6IE.jpg",
-        article_title: "Columbia’s Black Student-Athlete Alliance combines conversation with action",
-        article_authors: "Wick Hallos",
-        article_link: "https://www.columbiaspectator.com/sports/2021/02/15/columbias-black-student-athlete-alliance-combines-conversation-with-action/"
+      "article_link": "https://www.columbiaspectator.com/sports/2022/08/25/five-things-to-know-about-columbia-football-before-the-2022-season/",
+      "article_title": "Five things to know about Columbia football before the 2022 season",
+      "article_authors": "Matthew Kim",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/56P4GZPTNVB6FKSYGODZ6FGEM4.jpg"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AR4PYMGZYZFMRKDOKIWB233UCI.png",
-        article_title: "‘The numbers speak for themselves’: Despite successes of recent Lions, college basketball suffers from lack of Black head coaches",
-        article_authors: "Matthew Kim",
-        article_link: "https://www.columbiaspectator.com/main/2021/02/15/the-numbers-speak-for-themselves-despite-successes-of-recent-lions-college-basketball-suffers-from-lack-of-black-head-coaches/"
-    },
-    {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GECNPJBJZ5E6BFADDFUS7NE3XI.jpg",
-        article_title: "‘He was larger than life’: John Howard Johnson’s fight for integration stretched far beyond Columbia",
-        article_authors: "Miles Schachner",
-        article_link: "https://www.columbiaspectator.com/main/2021/02/15/he-was-larger-than-life-john-howard-johnsons-fight-for-integration-stretched-far-beyond-columbia/"
-    },
-    {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6TZTKG4ZJRCLRFLPPDGYAUJLRM.jpeg",
-        article_title: "The history of sports activism",
-        article_authors: "Elizabeth Karpen, Ryan Balderas, Caitlin Buckley, and Joao Santos",
-        article_link: "https://www.columbiaspectator.com/sports/2021/02/18/the-history-of-sports-activism/"
+      "article_link": "https://www.columbiaspectator.com/sports/2022/08/24/an-introduction-to-dodge-fitness-center/",
+      "article_title": "An introduction to Dodge Fitness Center",
+      "article_authors": "Takashi Williams",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SCAPSHNT6NAPJI5JQ35CBVXXRM.JPG"
     }
-];
+  ];

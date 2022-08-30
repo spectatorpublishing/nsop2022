@@ -1,50 +1,32 @@
 export const news_articles = [
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KMG2HBNEKJGENICVS4EJFRY5Z4.gif",
-        article_title: "After a year of national reckoning, Black students continue organizing for racial justice",
-        article_authors: "Talia Abrahamson",
-        article_link: "https://www.columbiaspectator.com/news/2021/02/08/after-a-year-of-national-reckoning-black-students-continue-organizing-for-racial-justice/"
+      "article_link": "https://www.columbiaspectator.com/news/2022/08/26/whos-who-in-the-columbia-administration/",
+      "article_title": "Who’s who in the Columbia administration",
+      "article_authors": "Irie Sentner",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZCLA2VVFRZBGLDKSWGCFIAYJ3Y.JPG"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/34BUCNV5XZA3XPN4FE2NC3LQVY.jpg",
-        article_title: "10 grantees named as recipients of the inaugural Racial Justice Mini-Grant",
-        article_authors: "Faith Onyechere",
-        article_link: "https://www.columbiaspectator.com/news/2021/02/11/ten-grantees-named-as-recipients-of-the-inaugural-racial-justice-mini-grant/"
+      "article_link": "https://www.columbiaspectator.com/news/2022/08/24/recent-and-upcoming-leadership-changes-poised-to-shape-columbias-future/",
+      "article_title": "Recent and upcoming leadership changes poised to shape Columbia’s future",
+      "article_authors": "Zachary Schermele",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/R5TTUJE24VBIZIUPDJSC6YNZEI.JPG"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BP3MRG6PCVHORCGDND5VYMH6BM.png",
-        article_title: "Rebuilding the canon: Columbia professors push for diversity in their syllabi",
-        article_authors: "Irie Sentner",
-        article_link: "https://www.columbiaspectator.com/news/2021/02/16/rebuilding-the-canon-columbia-professors-push-for-diversity-in-their-syllabi/"
+      "article_link": "https://www.columbiaspectator.com/news/2022/08/23/university-to-loosen-covid-19-guidelines-require-classroom-masking-until-sept-30/",
+      "article_title": "University to loosen COVID-19 guidelines, require classroom masking until Sept. 30",
+      "article_authors": "Stella Pagkas And Esha Karam",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3C6JRMRUDVG4BGUVK5O5QRL6XU.gif"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GNJDZVFI3RAWXC5OEVJV3HE7GU.jpg",
-        article_title: "Housing, natural disasters, and streetscape: the various fronts of environmental racism in Harlem and throughout the city",
-        article_authors: "Katherine Nessel and Faith Andrews",
-        article_link: "https://www.columbiaspectator.com/news/2021/02/16/housing-natural-disasters-and-streetscape-the-various-fronts-of-environmental-racism-in-harlem-and-throughout-the-city/"
+      "article_link": "https://www.columbiaspectator.com/news/2022/08/25/loss-of-us-news-no-2-ranking-leaves-incoming-students-questioning-university-prestige/",
+      "article_title": "Loss of U.S. News’ No. 2 ranking leaves some incoming students questioning University prestige",
+      "article_authors": "Isabella Ramírez",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AT34L5RFQBDPBEBCJVADQWFETA.jpg"
     },
     {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HV7MP2IE7JEJRAAESLYA26BHL4.jpg",
-        article_title: "At the RKO Hamilton Theater, development and historic preservation go head-to-head",
-        article_authors: "Lucy Brenner",
-        article_link: "https://www.columbiaspectator.com/news/2021/02/12/at-the-rko-hamilton-theater-development-and-historic-preservation-go-head-to-head/"
-    },
-    {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2ODZSYLGORDNTJCLPFNGFRQUWI.jpg",
-        article_title: "LCite Black Barnard Faculty Cite-a-Thon calls for representation in the classroom",
-        article_authors: "Stella Pagkas",
-        article_link: "https://www.columbiaspectator.c  om/news/2021/02/19/cite-black-barnard-faculty-cite-a-thon-calls-for-representation-in-the-classroom/"
-    },
-    {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5TCUJECDBNAZRASTKDZHAE54IA.jpg",
-        article_title: "A look at often overlooked historic sites",
-        article_authors: "Sofia Kown",
-        article_link: "https://www.columbiaspectator.com/photo-essay/2021/02/15/a-walk-through-west-harlem-a-look-at-often-overlooked-historic-sites/"
-    },
-    {
-        image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TKLP3KNVDZB3JILSETAAOZH23U.jpg",
-        article_title: "Much of West Harlem is still intact. To keep it that way, the community looks toward landmarking",
-        article_authors: "Maya Mitrasinovic",
-        article_link: "https://www.columbiaspectator.com/news/2021/02/12/much-of-west-harlem-is-still-intact-to-keep-it-that-way-the-community-looks-toward-landmarking/"
-    },
-];
+      "article_link": "https://www.columbiaspectator.com/news/2022/08/24/judge-denies-motion-to-dismiss-price-fixing-lawsuit-involving-columbia/",
+      "article_title": "Judge denies motion to dismiss ‘price-fixing’ lawsuit involving Columbia",
+      "article_authors": "Zachary Schermele",
+      "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BTCPC566IBG5RONET6ONEVX5JQ.JPG"
+    }
+  ];
