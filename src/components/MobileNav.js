@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import HamburgerMenu from 'react-hamburger-menu';
 import { fallDown as Menu } from 'react-burger-menu';
 import "../index.css";
+import { Link } from 'react-router-dom';
 
 const NavWrap = styled.div`
     text-align: center;
@@ -18,14 +19,18 @@ const NavWrap = styled.div`
     flex-wrap: wrap;
     z-index:100;
     background-color:#222066;
+    a {
+        padding: 0.5rem;
+    }
     @media (min-width: 768px) {
        display:none;
     }
 `;
 
-const Tab = styled.a`
-    background-color:${props => props.current ? "#F4F8D3": "inherit"};
-    color:${props => props.current ? "#1F3B83": "white"};
+const Tab = styled.div`
+    background-color:${props => props.current ? "#F4F8D3" : "inherit"};
+    color:${props => props.current ? "#1F3B83" : "white"};
+    padding: 0.5rem 1rem;
 `;
 const Logo = styled.div`
     z-index:100;
@@ -63,12 +68,20 @@ const MobileNavBar = ({ current }) => {
                 className="over"
             />
             <Menu isOpen={open} width={'100vw'}>
-                <Tab current={current === "home"} href="/">Home</Tab>
-                <Tab current={current === "uni-news"} href="/uni-news">University News</Tab>
-                <Tab current={current === "spectrum"} href="/spectrum">Spectrum</Tab>
-                <Tab current={current === "opinion"} href="/opinion">Opinion</Tab>
-                <Tab current={current === "sports"} href="/sports">Sports</Tab>
-                <Tab current={current === "a&e"} href="/a&e">A&E</Tab>
+                <Link style={{ textDecoration: 'none' }} to="/">
+                    <Tab current={current === "home"} href="/">Home</Tab></Link>
+                <Link style={{ textDecoration: 'none' }} to="/uni-news">
+                    <Tab current={current === "uni-news"} href="/uni-news">University News</Tab></Link>
+                <Link style={{ textDecoration: 'none' }} to="/spectrum">
+                    <Tab current={current === "spectrum"} href="/spectrum">Spectrum</Tab></Link>
+                <Link style={{ textDecoration: 'none' }} to="/opinion">
+                    <Tab current={current === "opinion"}>Opinion</Tab></Link>
+                <Link style={{ textDecoration: 'none' }} to="/sports">
+                    <Tab current={current === "sports"}>Sports</Tab>
+                </Link>
+                <Link style={{ textDecoration: 'none' }} to="/a&e">
+                    <Tab current={current === "a&e"}>A&E</Tab>
+                </Link>
             </Menu>
         </NavWrap>
     );
