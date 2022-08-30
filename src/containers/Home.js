@@ -99,6 +99,7 @@ const TextWrapMobile = styled.div`
             div {
                 padding: 0rem;
             }
+        margin-left: 1rem;
     }
 `;
 
