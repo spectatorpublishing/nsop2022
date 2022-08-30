@@ -18,7 +18,7 @@ const CoverWrapper = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     z-index:0;
-    margin-top:1vw;
+    margin-top:3rem;
     width:100%;
     height:110vh;
 
