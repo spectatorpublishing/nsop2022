@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const ArticleWrap = styled.div`
     height:60vw;
     width:81vw;
-    margin-top:7.5vh;
+    margin-top: 12rem;
     margin-bottom:7.5vh;
 
     @media (max-width: 500px) {

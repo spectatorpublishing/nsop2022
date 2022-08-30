@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 import { device } from '../device';
 
@@ -18,7 +18,7 @@ const CoverWrapper = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     z-index:0;
-    margin-top:-10vw;
+    margin-top:1vw;
     width:100%;
     height:110vh;
 
@@ -34,7 +34,7 @@ const CoverWrapper = styled.div`
     }
 
     @media (max-width: 1300px) {
-        background-size:contain;
+        background-size:cover;
         background-repeat:no-repeat;
     }
 `;
@@ -61,7 +61,6 @@ const NavWrap = styled.div`
 `;
 
 const TextWrap = styled.div`
-    font-size: 7.375em;
     position:relative;
     top:5%;
     font-weight:bold;
@@ -81,19 +80,25 @@ const TextWrapMobile = styled.div`
     font-weight:900;
     letter-spacing:1px;
     margin-bottom:-2.5em;
+
     div {
         font-family: Fraunces;
         position: relative;
         font-family: Fraunces;
-        width:80%;
         display: inline-block;
         padding: 0.5em 0.5em 0.5em 1em;
         overflow: hidden;
         color:#F4F8D3;
     }
-    
+
     @media (min-width: 500px) {
-            display: none;
+        display: none;
+    }
+    
+    @media (max-width: 500px) {
+            div {
+                padding: 0rem;
+            }
     }
 `;
 
@@ -101,6 +106,9 @@ const PartOneText = styled.div`
     text-transform:uppercase;
     font-family: Fraunces;
     text-shadow: 1px 1px #222066;
+    font-size: 7.375rem;
+    line-height: 7.375rem;
+    margin-top: 1rem;
     @media (max-width: 500px) {
         left:0%;
         padding:2vw;
@@ -118,13 +126,20 @@ const PartOneText = styled.div`
             z-index: -1;
         }
     }
+
+    @media (max-width: 768px) {
+        font-size:5rem;
+        line-height: 5rem;
+    }
 `;
 
 const PartTwoText = styled.div`
-    margin-top:2vh;
     text-transform:uppercase;
     font-family: Fraunces;
     text-shadow: 2px 2px #222066;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
     @media (max-width: 500px) {    
         margin-top:0vh;
         padding:2vw;
@@ -140,7 +155,47 @@ const PartTwoText = styled.div`
             z-index: -1;
         }
     }
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+        line-height: 2rem;
+        width: auto;
+        margin-bottom: 1rem;
+
+    }
 `;
+
+const PartTwoTextMobile = styled.div`
+    text-transform:uppercase;
+    font-family: Fraunces;
+    text-shadow: 2px 2px #222066;
+    font-size: 4rem;
+    line-height: 4rem;
+    
+    @media (max-width: 500px) {    
+        margin-top:0vh;
+        padding:2vw;
+        :after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform-origin: 0% 100%;
+            transform: skew(-10deg);
+            z-index: -1;
+        }
+    }
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+        width: auto;
+    }
+`;
+
 const Home = () => {
     return (
 
@@ -148,7 +203,8 @@ const Home = () => {
 
             <MobileNav current="home" />
             <TextWrapMobile>
-                <PartOneText>nsop 2022 special edition</PartOneText>
+                        <PartOneText>nsop 2022</PartOneText>
+                        <PartTwoText>special edition</PartTwoText>
             </TextWrapMobile>
             <TitleWrapper>
                     <TextWrap>

@@ -31,7 +31,7 @@ const Body = styled.div`
     font-size: 1.4em; 
     color:white;
     word-wrap:break-word;
-    width:95%;
+    width:89%;
     @media (max-width: ${size.tablet}) {
         font-size: 1em;
         width:100%;

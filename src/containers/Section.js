@@ -36,6 +36,7 @@ const Header = styled.h1`
     position:absolute;
     top:10vh;
     left:5vh;
+    text-shadow: 1px 1px #222066;
     @media ${device.tablet} {
         font-size: 3rem;
         letter-spacing: .1rem;

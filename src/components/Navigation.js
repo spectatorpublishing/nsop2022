@@ -10,9 +10,9 @@ const NavWrap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background:url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/A5Z2BNPLOBD4NKQUF4CESB6SJQ.png) #6B6BA2;
+    background:url(https://nsop2022.s3.amazonaws.com/Screen+Shot+2022-08-30+at+5.27.21+PM.png);
     background-size: cover;
-    background-position: 30% 80%;
+    background-position: 30% 20%;
     @media (max-width: 768px) {
         height:25vh;
     }
@@ -22,7 +22,6 @@ const Title = styled.div`
     font-style: normal;
     font-weight:400;
     padding:0vh 0 2vh 0;
-
 `;
 
 const TextWrap = styled.a`
