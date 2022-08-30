@@ -8,6 +8,7 @@ const LetterWrap = styled.div`
     padding-top:5vh;
     border:solid 1px white;
     margin-top:5vh;
+    margin-bottom: 2rem;
 
     @media (max-width: 768px) {
         margin-left:4%;
